@@ -1,4 +1,4 @@
-# SearchAndRescueUnity    
+# Search And Rescue using Unity    
 
 # Using Unity 2019.4.19f1
 
