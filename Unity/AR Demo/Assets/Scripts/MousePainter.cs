@@ -13,13 +13,13 @@ public class MousePainter : MonoBehaviour{
 
     void Update(){
 
-        bool click;
-        click = mouseSingleClick ? Input.GetMouseButtonDown(0) : Input.GetMouseButton(0);
+      /*  bool click;
+        click = mouseSingleClick ? Input.GetMouseButtonDown(0) : Input.GetMouseButton(0);*/
 
-        if (click){
-            Vector3 position = Input.mousePosition;
-            Ray ray = cam.ScreenPointToRay(position);
-            RaycastHit hit;
+        //if (click){
+            //Vector3 position = cam.position;//Input.mousePosition;
+            Ray ray = new Ray(cam.transform.position, cam.transform.forward);//cam.ScreenPointToRay(position);
+        RaycastHit hit;
 
             if (Physics.Raycast(ray, out hit, 100.0f)){
                 Debug.DrawRay(ray.origin, hit.point - ray.origin, Color.red);
@@ -29,7 +29,7 @@ public class MousePainter : MonoBehaviour{
                     PaintManager.instance.paint(p, hit.point, radius, hardness, strength, paintColor);
                 }
             }
-        }
+        //}
 
     }
 

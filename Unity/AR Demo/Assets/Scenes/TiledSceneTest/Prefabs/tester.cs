@@ -1,4 +1,4 @@
-using System.Collections;
+/*using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
@@ -20,6 +20,14 @@ public class tester : MonoBehaviour
 
     private bool stopPlaying = false;
 
+    public Camera cam;
+    [Space]
+    public Color paintColor;
+
+    public float radius = 1;
+    public float strength = 1;
+    public float hardness = 1;
+
 
     void Start()
     {
@@ -30,24 +38,30 @@ public class tester : MonoBehaviour
 
     void Update()
     {
-        /* Vector3 fwd = transform.TransformDirection(Vector3.forward);
+        *//* Vector3 fwd = transform.TransformDirection(Vector3.forward);
          if (Physics.Raycast(transform.position, fwd, distanceToCastRay))
              print("There is something in front of the object!");
-        */
+        *//*
 
 
+       
         RaycastHit hit;
-        // Does the ray intersect any objects excluding the player layer
-        if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, Mathf.Infinity))
+        if (Physics.Raycast(cam.transform.position, cam.transform.forward, out HitInfo, 100.0f))
         {
-            nameText.text = name + hit.collider.gameObject.name;
-            positionText.text = position + hit.collider.transform.position;
-            tagText.text = tag + hit.collider.gameObject.tag;
+            //Debug.DrawRay(ray.origin, hit.point - ray.origin, Color.red);
+            transform.position = hit.point;
+            Paintable p = hit.collider.GetComponent<Paintable>();
+            if (p != null)
+            {
+                PaintManager.instance.paint(p, hit.point, radius, hardness, strength, paintColor);
+                nameText.text = name + hit.collider.gameObject.name;
+                positionText.text = position + hit.collider.transform.position;
+                tagText.text = tag + hit.collider.gameObject.tag;
+            }
 
-
-            GameObject objectToBeChanged = hit.collider.gameObject;
+            *//*GameObject objectToBeChanged = hit.collider.gameObject;
             objectToBeChanged.gameObject.GetComponent<Renderer>().material.color = Color.yellow;
-            Debug.Log("I am bumblebee"); // hit color change happens    
+            Debug.Log("I am bumblebee"); // hit color change happens    */
 
             /* ONLY TO PLAY AUDIO
             if (hit.collider.gameObject.tag == "BLAH")
@@ -66,7 +80,7 @@ public class tester : MonoBehaviour
                     audioData.Stop();
                     stopPlaying = false;
                 }
-            }*/
+            }*//*
 
             //Debug.Log(name + hit.collider.gameObject.name);
             //Debug.Log(position + hit.collider.transform.position);
@@ -80,3 +94,4 @@ public class tester : MonoBehaviour
 
     }
 }
+*/
