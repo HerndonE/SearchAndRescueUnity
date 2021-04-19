@@ -1,0 +1,15 @@
+{
+    "name": "projectCloner",
+    "references": [],
+    "optionalUnityReferences": [],
+	"includePlatforms": [
+        "Editor"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

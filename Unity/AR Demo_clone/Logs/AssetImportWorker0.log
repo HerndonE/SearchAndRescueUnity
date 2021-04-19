@@ -1,0 +1,1036 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.4f1 (0abb6314276a) revision 703331'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.928; Version 2009; 64bit' Language: 'en' Physical Memory: 16276 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Users\athen\Desktop\New folder\Unity\2020.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo_clone
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55788
+Successfully changed project path to: C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo_clone
+C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo_clone
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 41.07 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.4f1 (0abb6314276a)
+[Subsystems] Discovering subsystems at path C:/Users/athen/Desktop/New folder/Unity/2020.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo_clone/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2080 SUPER (ID=0x1e81)
+    Vendor:   
+    VRAM:     8010 MB
+    Driver:   27.21.14.5671
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'C:/Users/athen/Desktop/New folder/Unity/2020.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Users/athen/Desktop/New folder/Unity/2020.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Users/athen/Desktop/New folder/Unity/2020.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56368
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Users/athen/Desktop/New folder/Unity/2020.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001223 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 41.04 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.232 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002115 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 43.15 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.747 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+CustomForwardRendererData is missing RendererFeatures
+This could be due to missing scripts or compile error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+UnityEngine.Rendering.Universal.ScriptableRendererData:ValidateRendererFeatures () (at C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:135)
+UnityEngine.Rendering.Universal.ScriptableRendererData:OnValidate () (at C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:59)
+
+(Filename: C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs Line: 135)
+
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2938 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.1 MB.
+System memory in use after: 133.3 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3377.
+Total: 1.994900 ms (FindLiveObjects: 0.250700 ms CreateObjectMapping: 0.135800 ms MarkObjects: 1.545000 ms  DeleteObjects: 0.062600 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Athena/Scenes/Athena.unity
+  artifactKey: Guid(39f1ddcb496d9554eb76dc372f4eb669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Athena/Scenes/Athena.unity using Guid(39f1ddcb496d9554eb76dc372f4eb669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0256e00dca283548bdab4aafecd5572') in 0.011587 seconds
+  Import took 0.015152 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002345 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CustomForwardRendererData is missing RendererFeatures
+This could be due to missing scripts or compile error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+UnityEngine.Rendering.Universal.ScriptableRendererData:ValidateRendererFeatures () (at C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:135)
+UnityEngine.Rendering.Universal.ScriptableRendererData:OnValidate () (at C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:59)
+
+(Filename: C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs Line: 135)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.754 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.1 MB.
+System memory in use after: 125.3 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3381.
+Total: 1.909300 ms (FindLiveObjects: 0.254500 ms CreateObjectMapping: 0.123200 ms MarkObjects: 1.487400 ms  DeleteObjects: 0.043600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1148.149744 seconds.
+  path: Assets/Athena/Prefabs/Player.prefab
+  artifactKey: Guid(c0a854b8849e18e46998da54d6335110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Athena/Prefabs/Player.prefab using Guid(c0a854b8849e18e46998da54d6335110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c36d26c46ea59bd21e685f3ac3eed894') in 0.166533 seconds
+  Import took 0.171239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 122.247211 seconds.
+  path: Assets/Athena/Prefabs/Player.prefab
+  artifactKey: Guid(c0a854b8849e18e46998da54d6335110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Athena/Prefabs/Player.prefab using Guid(c0a854b8849e18e46998da54d6335110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46126ef10a0e1374d83741c114d104a1') in 0.010531 seconds
+  Import took 0.014676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.962187 seconds.
+  path: Assets/Athena/Prefabs/Player.prefab
+  artifactKey: Guid(c0a854b8849e18e46998da54d6335110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Athena/Prefabs/Player.prefab using Guid(c0a854b8849e18e46998da54d6335110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4e7fe1d34d53139ec5a02dd20bef4d9') in 0.006984 seconds
+  Import took 0.010975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.978534 seconds.
+  path: Assets/Athena/Scripts/PlayerMovement.cs
+  artifactKey: Guid(d3ad6d4297d38ae4fa28acdfd25d96a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Athena/Scripts/PlayerMovement.cs using Guid(d3ad6d4297d38ae4fa28acdfd25d96a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c29e18eeafa1dfe95c37345bf162ee9b') in 0.015508 seconds
+  Import took 0.020082 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002168 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CustomForwardRendererData is missing RendererFeatures
+This could be due to missing scripts or compile error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+UnityEngine.Rendering.Universal.ScriptableRendererData:ValidateRendererFeatures () (at C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:135)
+UnityEngine.Rendering.Universal.ScriptableRendererData:OnValidate () (at C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:59)
+
+(Filename: C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs Line: 135)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.730 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2817 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.4 MB.
+System memory in use after: 130.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3432.
+Total: 1.857300 ms (FindLiveObjects: 0.272400 ms CreateObjectMapping: 0.142200 ms MarkObjects: 1.404300 ms  DeleteObjects: 0.037200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 472.223592 seconds.
+  path: Assets/Athena/Scripts/PlayerMovement.cs
+  artifactKey: Guid(d3ad6d4297d38ae4fa28acdfd25d96a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Athena/Scripts/PlayerMovement.cs using Guid(d3ad6d4297d38ae4fa28acdfd25d96a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1ca8d8b0857472aff7a6faffc9fbdae') in 0.006976 seconds
+  Import took 0.012048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 61.062022 seconds.
+  path: Assets/Athena/Scripts/PlayerMovement.cs
+  artifactKey: Guid(d3ad6d4297d38ae4fa28acdfd25d96a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Athena/Scripts/PlayerMovement.cs using Guid(d3ad6d4297d38ae4fa28acdfd25d96a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae6f698163be735bc52bd6959b96e0fd') in 0.002033 seconds
+  Import took 0.005564 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002067 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CustomForwardRendererData is missing RendererFeatures
+This could be due to missing scripts or compile error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+UnityEngine.Rendering.Universal.ScriptableRendererData:ValidateRendererFeatures () (at C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:135)
+UnityEngine.Rendering.Universal.ScriptableRendererData:OnValidate () (at C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:59)
+
+(Filename: C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs Line: 135)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.684 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2817 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.4 MB.
+System memory in use after: 130.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3436.
+Total: 1.758400 ms (FindLiveObjects: 0.242700 ms CreateObjectMapping: 0.113900 ms MarkObjects: 1.363200 ms  DeleteObjects: 0.038000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002164 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CustomForwardRendererData is missing RendererFeatures
+This could be due to missing scripts or compile error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+UnityEngine.Rendering.Universal.ScriptableRendererData:ValidateRendererFeatures () (at C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:135)
+UnityEngine.Rendering.Universal.ScriptableRendererData:OnValidate () (at C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:59)
+
+(Filename: C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs Line: 135)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.710 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2817 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.4 MB.
+System memory in use after: 130.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3440.
+Total: 1.939600 ms (FindLiveObjects: 0.283800 ms CreateObjectMapping: 0.155200 ms MarkObjects: 1.460000 ms  DeleteObjects: 0.039200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002003 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CustomForwardRendererData is missing RendererFeatures
+This could be due to missing scripts or compile error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+UnityEngine.Rendering.Universal.ScriptableRendererData:ValidateRendererFeatures () (at C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:135)
+UnityEngine.Rendering.Universal.ScriptableRendererData:OnValidate () (at C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:59)
+
+(Filename: C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs Line: 135)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.695 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2817 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.5 MB.
+System memory in use after: 130.7 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3444.
+Total: 2.002100 ms (FindLiveObjects: 0.258500 ms CreateObjectMapping: 0.127300 ms MarkObjects: 1.544400 ms  DeleteObjects: 0.071200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002883 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CustomForwardRendererData is missing RendererFeatures
+This could be due to missing scripts or compile error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+UnityEngine.Rendering.Universal.ScriptableRendererData:ValidateRendererFeatures () (at C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:135)
+UnityEngine.Rendering.Universal.ScriptableRendererData:OnValidate () (at C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:59)
+
+(Filename: C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs Line: 135)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.688 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2817 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.5 MB.
+System memory in use after: 130.7 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3448.
+Total: 1.980400 ms (FindLiveObjects: 0.243600 ms CreateObjectMapping: 0.137000 ms MarkObjects: 1.555300 ms  DeleteObjects: 0.043900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1001.193561 seconds.
+  path: Assets/Athena/Prefabs/Player.prefab
+  artifactKey: Guid(c0a854b8849e18e46998da54d6335110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Athena/Prefabs/Player.prefab using Guid(c0a854b8849e18e46998da54d6335110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e718be5e8af332451de194d4d854b89c') in 0.122678 seconds
+  Import took 0.126576 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002180 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CustomForwardRendererData is missing RendererFeatures
+This could be due to missing scripts or compile error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+UnityEngine.Rendering.Universal.ScriptableRendererData:ValidateRendererFeatures () (at C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:135)
+UnityEngine.Rendering.Universal.ScriptableRendererData:OnValidate () (at C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:59)
+
+(Filename: C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs Line: 135)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.711 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2817 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.6 MB.
+System memory in use after: 130.8 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3488.
+Total: 1.979500 ms (FindLiveObjects: 0.261100 ms CreateObjectMapping: 0.131700 ms MarkObjects: 1.546400 ms  DeleteObjects: 0.039500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.889174 seconds.
+  path: Assets/Athena/Prefabs/Player.prefab
+  artifactKey: Guid(c0a854b8849e18e46998da54d6335110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Athena/Prefabs/Player.prefab using Guid(c0a854b8849e18e46998da54d6335110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4537c07786847660295ae5cd04ef98e') in 0.122317 seconds
+  Import took 0.127005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.823243 seconds.
+  path: Assets/Athena/Prefabs/Player.prefab
+  artifactKey: Guid(c0a854b8849e18e46998da54d6335110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Athena/Prefabs/Player.prefab using Guid(c0a854b8849e18e46998da54d6335110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68b32dd9639c1d8c0c1bb378197b14da') in 0.006688 seconds
+  Import took 0.010360 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002375 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CustomForwardRendererData is missing RendererFeatures
+This could be due to missing scripts or compile error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+UnityEngine.Rendering.Universal.ScriptableRendererData:ValidateRendererFeatures () (at C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:135)
+UnityEngine.Rendering.Universal.ScriptableRendererData:OnValidate () (at C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:59)
+
+(Filename: C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs Line: 135)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.767 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2817 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.8 MB.
+System memory in use after: 131.0 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3528.
+Total: 2.143900 ms (FindLiveObjects: 0.308800 ms CreateObjectMapping: 0.136800 ms MarkObjects: 1.657100 ms  DeleteObjects: 0.040200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002167 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CustomForwardRendererData is missing RendererFeatures
+This could be due to missing scripts or compile error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+UnityEngine.Rendering.Universal.ScriptableRendererData:ValidateRendererFeatures () (at C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:135)
+UnityEngine.Rendering.Universal.ScriptableRendererData:OnValidate () (at C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:59)
+
+(Filename: C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs Line: 135)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.725 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2817 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.8 MB.
+System memory in use after: 131.0 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3532.
+Total: 2.195000 ms (FindLiveObjects: 0.276200 ms CreateObjectMapping: 0.142800 ms MarkObjects: 1.732900 ms  DeleteObjects: 0.042300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 750.023951 seconds.
+  path: Assets/Settings/CustomForwardRendererData.asset
+  artifactKey: Guid(71f18d669ea3cdf4cade97f3d08db312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/CustomForwardRendererData.asset using Guid(71f18d669ea3cdf4cade97f3d08db312) Importer(815301076,1909f56bfc062723c751e8b465ee728b) CustomForwardRendererData is missing RendererFeatures
+This could be due to missing scripts or compile error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+UnityEngine.Rendering.Universal.ScriptableRendererData:ValidateRendererFeatures () (at C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:135)
+UnityEngine.Rendering.Universal.ScriptableRendererData:OnValidate () (at C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:59)
+
+(Filename: C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs Line: 135)
+
+ -> (artifact id: '23fa08c4624dad1d9e767f8d4898d614') in 0.014740 seconds
+  Import took 0.018740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Settings/SampleSceneProfile.asset
+  artifactKey: Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/SampleSceneProfile.asset using Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cb59ecb7524575ed09e5a213fbd5ae4') in 0.006909 seconds
+  Import took 0.010682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Settings/UniversalRP-LowQuality.asset
+  artifactKey: Guid(a31e9f9f9c9d4b9429ed0d1234e22103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/UniversalRP-LowQuality.asset using Guid(a31e9f9f9c9d4b9429ed0d1234e22103) Importer(815301076,1909f56bfc062723c751e8b465ee728b) CustomForwardRendererData is missing RendererFeatures
+This could be due to missing scripts or compile error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+UnityEngine.Rendering.Universal.ScriptableRendererData:ValidateRendererFeatures () (at C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:135)
+UnityEngine.Rendering.Universal.ScriptableRendererData:OnValidate () (at C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:59)
+
+(Filename: C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs Line: 135)
+
+ -> (artifact id: 'e0452574ddba0fe98f5a22fc1782acc5') in 0.007912 seconds
+  Import took 0.011440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Settings/UniversalRP-MediumQuality.asset
+  artifactKey: Guid(d847b876476d3d6468f5dfcd34266f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/UniversalRP-MediumQuality.asset using Guid(d847b876476d3d6468f5dfcd34266f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) CustomForwardRendererData is missing RendererFeatures
+This could be due to missing scripts or compile error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+UnityEngine.Rendering.Universal.ScriptableRendererData:ValidateRendererFeatures () (at C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:135)
+UnityEngine.Rendering.Universal.ScriptableRendererData:OnValidate () (at C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:59)
+
+(Filename: C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs Line: 135)
+
+ -> (artifact id: 'd8d962f07dbfdd51ecb22614c7552fcf') in 0.006708 seconds
+  Import took 0.010096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Settings/UniversalRP-HighQuality.asset
+  artifactKey: Guid(19ba41d7c0026c3459d37c2fe90c55a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/UniversalRP-HighQuality.asset using Guid(19ba41d7c0026c3459d37c2fe90c55a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) CustomForwardRendererData is missing RendererFeatures
+This could be due to missing scripts or compile error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+UnityEngine.Rendering.Universal.ScriptableRendererData:ValidateRendererFeatures () (at C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:135)
+UnityEngine.Rendering.Universal.ScriptableRendererData:OnValidate () (at C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:59)
+
+(Filename: C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs Line: 135)
+
+ -> (artifact id: 'aded83801e8039897c1a0bc5bd5359cf') in 0.007308 seconds
+  Import took 0.010699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.083271 seconds.
+  path: Assets/Athena/Scripts/PlayerMovement.cs
+  artifactKey: Guid(d3ad6d4297d38ae4fa28acdfd25d96a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Athena/Scripts/PlayerMovement.cs using Guid(d3ad6d4297d38ae4fa28acdfd25d96a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66b36ef11b4ff61dca57c767a82250ef') in 0.001935 seconds
+  Import took 0.005675 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002070 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CustomForwardRendererData is missing RendererFeatures
+This could be due to missing scripts or compile error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+UnityEngine.Rendering.Universal.ScriptableRendererData:ValidateRendererFeatures () (at C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:135)
+UnityEngine.Rendering.Universal.ScriptableRendererData:OnValidate () (at C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:59)
+
+(Filename: C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs Line: 135)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.699 seconds
+Platform modules already initialized, skipping
+CustomForwardRendererData is missing RendererFeatures
+This could be due to missing scripts or compile error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+UnityEngine.Rendering.Universal.ScriptableRendererData:ValidateRendererFeatures () (at C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:135)
+UnityEngine.Rendering.Universal.ScriptableRendererData:OnValidate () (at C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:59)
+
+(Filename: C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs Line: 135)
+
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2818 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.8 MB.
+System memory in use after: 131.0 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3538.
+Total: 1.856700 ms (FindLiveObjects: 0.235500 ms CreateObjectMapping: 0.118600 ms MarkObjects: 1.466900 ms  DeleteObjects: 0.034900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 68.706999 seconds.
+  path: Assets/Athena/Scripts/PlayerMovement.cs
+  artifactKey: Guid(d3ad6d4297d38ae4fa28acdfd25d96a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Athena/Scripts/PlayerMovement.cs using Guid(d3ad6d4297d38ae4fa28acdfd25d96a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6b872913c9481812a21c628210e5778') in 0.004536 seconds
+  Import took 0.008374 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002058 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CustomForwardRendererData is missing RendererFeatures
+This could be due to missing scripts or compile error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+UnityEngine.Rendering.Universal.ScriptableRendererData:ValidateRendererFeatures () (at C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:135)
+UnityEngine.Rendering.Universal.ScriptableRendererData:OnValidate () (at C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:59)
+
+(Filename: C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs Line: 135)
+
+CustomForwardRendererData is missing RendererFeatures
+This could be due to missing scripts or compile error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+UnityEngine.Rendering.Universal.ScriptableRendererData:ValidateRendererFeatures () (at C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:135)
+UnityEngine.Rendering.Universal.ScriptableRendererData:OnValidate () (at C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:59)
+
+(Filename: C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs Line: 135)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.682 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.9 MB.
+System memory in use after: 131.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3541.
+Total: 2.068100 ms (FindLiveObjects: 0.248400 ms CreateObjectMapping: 0.136100 ms MarkObjects: 1.640700 ms  DeleteObjects: 0.042000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002010 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CustomForwardRendererData is missing RendererFeatures
+This could be due to missing scripts or compile error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+UnityEngine.Rendering.Universal.ScriptableRendererData:ValidateRendererFeatures () (at C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:135)
+UnityEngine.Rendering.Universal.ScriptableRendererData:OnValidate () (at C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:59)
+
+(Filename: C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs Line: 135)
+
+CustomForwardRendererData is missing RendererFeatures
+This could be due to missing scripts or compile error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+UnityEngine.Rendering.Universal.ScriptableRendererData:ValidateRendererFeatures () (at C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:135)
+UnityEngine.Rendering.Universal.ScriptableRendererData:OnValidate () (at C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:59)
+
+(Filename: C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs Line: 135)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.689 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2817 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.9 MB.
+System memory in use after: 131.1 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3546.
+Total: 1.847200 ms (FindLiveObjects: 0.245400 ms CreateObjectMapping: 0.118500 ms MarkObjects: 1.446900 ms  DeleteObjects: 0.035800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002092 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CustomForwardRendererData is missing RendererFeatures
+This could be due to missing scripts or compile error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+UnityEngine.Rendering.Universal.ScriptableRendererData:ValidateRendererFeatures () (at C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:135)
+UnityEngine.Rendering.Universal.ScriptableRendererData:OnValidate () (at C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:59)
+
+(Filename: C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs Line: 135)
+
+CustomForwardRendererData is missing RendererFeatures
+This could be due to missing scripts or compile error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+UnityEngine.Rendering.Universal.ScriptableRendererData:ValidateRendererFeatures () (at C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:135)
+UnityEngine.Rendering.Universal.ScriptableRendererData:OnValidate () (at C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:59)
+
+(Filename: C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs Line: 135)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.690 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2817 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.9 MB.
+System memory in use after: 131.1 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3550.
+Total: 1.955800 ms (FindLiveObjects: 0.271500 ms CreateObjectMapping: 0.133400 ms MarkObjects: 1.513300 ms  DeleteObjects: 0.036800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 246.492466 seconds.
+  path: Assets/Athena/Scripts/PlayerMovement.cs
+  artifactKey: Guid(d3ad6d4297d38ae4fa28acdfd25d96a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Athena/Scripts/PlayerMovement.cs using Guid(d3ad6d4297d38ae4fa28acdfd25d96a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1299bfd92fb1708023fc4b7ae9815a16') in 0.004577 seconds
+  Import took 0.008050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1105.932182 seconds.
+  path: Assets/Athena/Prefabs/Player.prefab
+  artifactKey: Guid(c0a854b8849e18e46998da54d6335110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Athena/Prefabs/Player.prefab using Guid(c0a854b8849e18e46998da54d6335110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10e4969fd7a3e373a961c6cf4a2331b6') in 0.126500 seconds
+  Import took 0.130836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.355344 seconds.
+  path: Assets/Athena/Prefabs/Player.prefab
+  artifactKey: Guid(c0a854b8849e18e46998da54d6335110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Athena/Prefabs/Player.prefab using Guid(c0a854b8849e18e46998da54d6335110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dd6553576185bed1d238e0862c0bb7d') in 0.006752 seconds
+  Import took 0.010311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 721.903284 seconds.
+  path: Assets/Athena/Scripts/PlayerMovement.cs
+  artifactKey: Guid(d3ad6d4297d38ae4fa28acdfd25d96a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Athena/Scripts/PlayerMovement.cs using Guid(d3ad6d4297d38ae4fa28acdfd25d96a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6de535627ee7955f058cd1dc04c369e8') in 0.002528 seconds
+  Import took 0.006921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.797061 seconds.
+  path: Assets/Athena/Prefabs/Player.prefab
+  artifactKey: Guid(c0a854b8849e18e46998da54d6335110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Athena/Prefabs/Player.prefab using Guid(c0a854b8849e18e46998da54d6335110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dca112d14cc667a8fa5dbfeaebbffc94') in 0.023562 seconds
+  Import took 0.027224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046986 seconds.
+  path: Assets/Athena/Prefabs/Player.prefab
+  artifactKey: Guid(c0a854b8849e18e46998da54d6335110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Athena/Prefabs/Player.prefab using Guid(c0a854b8849e18e46998da54d6335110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dca112d14cc667a8fa5dbfeaebbffc94') in 0.006524 seconds
+  Import took 0.010196 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002124 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CustomForwardRendererData is missing RendererFeatures
+This could be due to missing scripts or compile error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+UnityEngine.Rendering.Universal.ScriptableRendererData:ValidateRendererFeatures () (at C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:135)
+UnityEngine.Rendering.Universal.ScriptableRendererData:OnValidate () (at C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:59)
+
+(Filename: C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs Line: 135)
+
+CustomForwardRendererData is missing RendererFeatures
+This could be due to missing scripts or compile error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+UnityEngine.Rendering.Universal.ScriptableRendererData:ValidateRendererFeatures () (at C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:135)
+UnityEngine.Rendering.Universal.ScriptableRendererData:OnValidate () (at C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:59)
+
+(Filename: C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs Line: 135)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.690 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.0 MB.
+System memory in use after: 131.2 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3589.
+Total: 1.881800 ms (FindLiveObjects: 0.238400 ms CreateObjectMapping: 0.137400 ms MarkObjects: 1.468000 ms  DeleteObjects: 0.037300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002200 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CustomForwardRendererData is missing RendererFeatures
+This could be due to missing scripts or compile error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+UnityEngine.Rendering.Universal.ScriptableRendererData:ValidateRendererFeatures () (at C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:135)
+UnityEngine.Rendering.Universal.ScriptableRendererData:OnValidate () (at C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:59)
+
+(Filename: C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs Line: 135)
+
+CustomForwardRendererData is missing RendererFeatures
+This could be due to missing scripts or compile error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+UnityEngine.Rendering.Universal.ScriptableRendererData:ValidateRendererFeatures () (at C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:135)
+UnityEngine.Rendering.Universal.ScriptableRendererData:OnValidate () (at C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:59)
+
+(Filename: C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs Line: 135)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.686 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.0 MB.
+System memory in use after: 131.2 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3593.
+Total: 1.971800 ms (FindLiveObjects: 0.274900 ms CreateObjectMapping: 0.134400 ms MarkObjects: 1.524200 ms  DeleteObjects: 0.037600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 89.179992 seconds.
+  path: Assets/Athena/Prefabs/Player.prefab
+  artifactKey: Guid(c0a854b8849e18e46998da54d6335110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Athena/Prefabs/Player.prefab using Guid(c0a854b8849e18e46998da54d6335110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4874f98a953a060f14746c1681ecd638') in 0.115349 seconds
+  Import took 0.119272 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002266 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CustomForwardRendererData is missing RendererFeatures
+This could be due to missing scripts or compile error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+UnityEngine.Rendering.Universal.ScriptableRendererData:ValidateRendererFeatures () (at C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:135)
+UnityEngine.Rendering.Universal.ScriptableRendererData:OnValidate () (at C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:59)
+
+(Filename: C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs Line: 135)
+
+CustomForwardRendererData is missing RendererFeatures
+This could be due to missing scripts or compile error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+UnityEngine.Rendering.Universal.ScriptableRendererData:ValidateRendererFeatures () (at C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:135)
+UnityEngine.Rendering.Universal.ScriptableRendererData:OnValidate () (at C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:59)
+
+(Filename: C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs Line: 135)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.786 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.2 MB.
+System memory in use after: 131.4 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3633.
+Total: 2.233600 ms (FindLiveObjects: 0.288600 ms CreateObjectMapping: 0.156300 ms MarkObjects: 1.735300 ms  DeleteObjects: 0.052800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002178 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CustomForwardRendererData is missing RendererFeatures
+This could be due to missing scripts or compile error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+UnityEngine.Rendering.Universal.ScriptableRendererData:ValidateRendererFeatures () (at C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:135)
+UnityEngine.Rendering.Universal.ScriptableRendererData:OnValidate () (at C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:59)
+
+(Filename: C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs Line: 135)
+
+CustomForwardRendererData is missing RendererFeatures
+This could be due to missing scripts or compile error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+UnityEngine.Rendering.Universal.ScriptableRendererData:ValidateRendererFeatures () (at C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:135)
+UnityEngine.Rendering.Universal.ScriptableRendererData:OnValidate () (at C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:59)
+
+(Filename: C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs Line: 135)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.693 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2817 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.2 MB.
+System memory in use after: 131.4 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3638.
+Total: 2.334200 ms (FindLiveObjects: 0.392100 ms CreateObjectMapping: 0.233700 ms MarkObjects: 1.666200 ms  DeleteObjects: 0.041500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002141 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CustomForwardRendererData is missing RendererFeatures
+This could be due to missing scripts or compile error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+UnityEngine.Rendering.Universal.ScriptableRendererData:ValidateRendererFeatures () (at C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:135)
+UnityEngine.Rendering.Universal.ScriptableRendererData:OnValidate () (at C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:59)
+
+(Filename: C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs Line: 135)
+
+CustomForwardRendererData is missing RendererFeatures
+This could be due to missing scripts or compile error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+UnityEngine.Rendering.Universal.ScriptableRendererData:ValidateRendererFeatures () (at C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:135)
+UnityEngine.Rendering.Universal.ScriptableRendererData:OnValidate () (at C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:59)
+
+(Filename: C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs Line: 135)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.698 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2817 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.2 MB.
+System memory in use after: 131.4 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3642.
+Total: 2.050900 ms (FindLiveObjects: 0.252000 ms CreateObjectMapping: 0.154600 ms MarkObjects: 1.603700 ms  DeleteObjects: 0.039800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002306 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CustomForwardRendererData is missing RendererFeatures
+This could be due to missing scripts or compile error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+UnityEngine.Rendering.Universal.ScriptableRendererData:ValidateRendererFeatures () (at C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:135)
+UnityEngine.Rendering.Universal.ScriptableRendererData:OnValidate () (at C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:59)
+
+(Filename: C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs Line: 135)
+
+CustomForwardRendererData is missing RendererFeatures
+This could be due to missing scripts or compile error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+UnityEngine.Rendering.Universal.ScriptableRendererData:ValidateRendererFeatures () (at C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:135)
+UnityEngine.Rendering.Universal.ScriptableRendererData:OnValidate () (at C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:59)
+
+(Filename: C:/Users/athen/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs Line: 135)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.774 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2817 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.2 MB.
+System memory in use after: 131.4 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3646.
+Total: 2.333000 ms (FindLiveObjects: 0.301800 ms CreateObjectMapping: 0.137200 ms MarkObjects: 1.851300 ms  DeleteObjects: 0.041800 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
