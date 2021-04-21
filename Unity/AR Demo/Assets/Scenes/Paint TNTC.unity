@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -97,7 +97,8 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: 224d54209179d664a9583ae877212705, type: 2}
+  m_LightingDataAsset: {fileID: 112000000, guid: 224d54209179d664a9583ae877212705,
+    type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -880,7 +881,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cam: {fileID: 960427824}
   mouseSingleClick: 0
-  paintColor: {r: 0.045612313, g: 0.38679248, b: 0.25643587, a: 1}
+  paintColor: {r: 1, g: 0, b: 1, a: 1}
   radius: 1
   strength: 0.5
   hardness: 0.1

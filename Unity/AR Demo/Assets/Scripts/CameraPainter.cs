@@ -1,11 +1,23 @@
 using UnityEngine;
+using Random = UnityEngine.Random;
 
-public class MousePainter : MonoBehaviour{
+public class CameraPainter : MonoBehaviour{
     public Camera cam;
     [Space]
     public bool mouseSingleClick;
     [Space]
+    public bool randomTorF;
+    [Space]
     public Color paintColor;
+
+    void Start() {
+        if (randomTorF == true)
+        {
+            paintColor = new Color((float)Random.Range(50, 200) / 255.0f, (float)Random.Range(50, 200) / 255.0f, (float)Random.Range(50, 200) / 255.0f);
+        }
+    }
+
+
     
     public float radius = 1;
     public float strength = 1;
