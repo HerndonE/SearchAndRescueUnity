@@ -2592,7 +2592,7 @@ PrefabInstance:
     - target: {fileID: 5123770335280628589, guid: 064ddba0e02f7b644bda025e01b8c341,
         type: 3}
       propertyPath: m_Name
-      value: Knife Plane
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 5123770335280628589, guid: 064ddba0e02f7b644bda025e01b8c341,
         type: 3}
@@ -4048,7 +4048,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cam: {fileID: 852688787}
   mouseSingleClick: 0
-  randomTorF: 1
+  randomTorF: 0
   paintColor: {r: 0, g: 0.060203552, b: 1, a: 1}
   radius: 1
   strength: 0.5
