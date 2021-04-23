@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using MLAPI;
 
-public class testScriptMove : MonoBehaviour
+public class NetworkingTestScript : MonoBehaviour
 {
     CharacterController cc;
     // Start is called before the first frame update
