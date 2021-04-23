@@ -29,6 +29,7 @@
 
 ### Riley Galloway
 **Role:**
+[<img align="left" alt="GallowayG | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />](https://www.linkedin.com/in/riley-galloway-66b736146)
 [<img align="left" alt="GallowayG | Github" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/github.svg" />](https://github.com/Riley-Six)
 ### Natalia Gill
 **Role:**
