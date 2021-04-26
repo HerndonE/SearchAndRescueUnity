@@ -19,6 +19,7 @@ public class FullMovement : NetworkBehaviour
         } else
         {
             cc = GetComponent<CharacterController>();
+            Cursor.lockState = CursorLockMode.Locked;
         }
         
     }
