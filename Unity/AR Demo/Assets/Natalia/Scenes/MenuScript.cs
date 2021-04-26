@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using MLAPI;
+using MLAPI.Spawning;
 using MLAPI.Transports.UNET;
 using UnityEngine.UI;
 
