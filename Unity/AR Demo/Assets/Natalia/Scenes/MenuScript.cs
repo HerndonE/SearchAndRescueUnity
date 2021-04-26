@@ -9,12 +9,12 @@ public class MenuScript : MonoBehaviour
     
     public void Host()
     {
-        NetworkingManager.Singleton.StartHost();
+        NetworkManager.Singleton.StartHost();
     }
 
     public void Join()
     {
-        NetworkingManager.Singleton.StartClient();
+        NetworkManager.Singleton.StartClient();
     }
     
 } // class
