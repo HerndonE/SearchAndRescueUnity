@@ -1,12 +1,5 @@
 {
   "dependencies": {
-    "com.hwaet.projectcloner": {
-      "version": "https://github.com/hwaet/UnityProjectCloner.git",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "2b7497d79e7513a524c99cb1917ad146b2a3a866"
-    },
     "com.unity.collab-proxy": {
       "version": "1.3.9",
       "depth": 0,
