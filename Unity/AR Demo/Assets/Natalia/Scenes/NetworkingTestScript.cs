@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using MLAPI;
+using MLAPI.Transports.UNET;
 
 public class NetworkingTestScript : NetworkBehaviour
 {
