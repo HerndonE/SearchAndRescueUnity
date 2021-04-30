@@ -5,9 +5,13 @@ using UnityEngine;
 using System.Linq;
 using System.Text;
 using System.Net;
+using UnityEngine.UI;
 
 public class IPAddress : MonoBehaviour
 {
+
+    public Text ipAddressText;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,6 +30,7 @@ public class IPAddress : MonoBehaviour
             if (count == host.AddressList.Length)
             {
                 Debug.Log($"IPv4 Address: {address}");
+                ipAddressText.text = ""+address;
             }
         }
 
