@@ -7,7 +7,7 @@
 ![](https://img.shields.io/github/stars/HerndonE/SearchAndRescueUnity?style=social)
 ![](https://img.shields.io/github/forks/HerndonE/SearchAndRescueUnity?style=social)
 ### Description:
-1. [Download Running Prototype Here]()
+1. [Download Running Prototype Here](https://github.com/HerndonE/SearchAndRescueUnity/blob/main/Unity/AR%20Demo/Builds/ARDemoTest.apk?raw=true)
 ### Images:
 <p float="left">
   <img src="https://github.com/HerndonE/SearchAndRescueUnity/blob/main/Images/BIGGER%20HEAD.png?raw=true" width="200" />
