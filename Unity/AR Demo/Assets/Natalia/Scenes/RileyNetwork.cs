@@ -54,4 +54,4 @@ public class RileyNetwork : MonoBehaviour
     {
         this.ipaddress = newAddress;
     }
-} // class
+} // EO CLASS 
