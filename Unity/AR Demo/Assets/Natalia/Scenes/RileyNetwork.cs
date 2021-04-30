@@ -5,24 +5,24 @@ using MLAPI;
 using MLAPI.Spawning;
 using MLAPI.Transports.UNET;
 
-public class ConnectionObject : MonoBehaviour
+public class RileyNetwork : MonoBehaviour
 {
 
-    public GameObject connectionBottomPanel;
-
+    public GameObject connectionPanel;
     public string ipaddress = "127.0.0.1";
 
     UNetTransport transport;
-
-    // happens on server
-    public void Host()
+    // HAPPENING ON SERVER 
+    public void Host() 
     {
-        connectionBottomPanel.SetActive(false);
+        
+        Debug.Log("HOST JOINED");
+        connectionPanel.SetActive(false);
         NetworkManager.Singleton.ConnectionApprovalCallback += AprrovalCheck;
         NetworkManager.Singleton.StartHost(GetRandomSpwan(), Quaternion.identity);
     }
-
-    // happens on server
+    
+    // HAPPENING ON SERVER
     private void AprrovalCheck(byte[] connectionData, ulong clientID, NetworkManager.ConnectionApprovedDelegate callBack)
     {
         
@@ -30,15 +30,17 @@ public class ConnectionObject : MonoBehaviour
         bool approve = System.Text.Encoding.ASCII.GetString(connectionData) == "Password1234";
         callBack(true, null, approve, GetRandomSpwan(), Quaternion.identity);
     }    
+
+
     public void Join()
     {
+        Debug.Log("CLIENT JOINED");
         transport = NetworkManager.Singleton.GetComponent<UNetTransport>();
         transport.ConnectAddress = ipaddress;
-        connectionBottomPanel.SetActive(false);
+        connectionPanel.SetActive(false);
         NetworkManager.Singleton.NetworkConfig.ConnectionData = System.Text.Encoding.ASCII.GetBytes("Password1234");
         NetworkManager.Singleton.StartClient();
     }
-
 
     Vector3 GetRandomSpwan()
     {
@@ -46,8 +48,8 @@ public class ConnectionObject : MonoBehaviour
         float y = Random.Range(-10f, +10f);
         float z = Random.Range(-10f, +10f);
         return new Vector3(x,y,z);
-    } 
-
+    }
+    
     public void IPAddressChanged(string newAddress) 
     {
         this.ipaddress = newAddress;

@@ -22,32 +22,36 @@ public class platformMovement : MonoBehaviour
     public void ForwardPress()
     {
         transform.position += speed * Vector3.forward * Time.deltaTime;
+        /*
         Debug.Log("X: " + transform.position.x + "," +
             "Y: " + transform.position.y + "," +
-            "Z: " + transform.position.z);
+            "Z: " + transform.position.z); */
     }
     public void BackwardPress()
     {
         transform.position += speed * Vector3.back * Time.deltaTime;
+        /*
         Debug.Log("X: " + transform.position.x + "," +
             "Y: " + transform.position.y + "," +
-            "Z: " + transform.position.z);
+            "Z: " + transform.position.z); */
     }
 
     public void LeftPress()
     {
         transform.position += speed * Vector3.left * Time.deltaTime;
+        /*
         Debug.Log("X: " + transform.position.x + "," +
             "Y: " + transform.position.y + "," +
-            "Z: " + transform.position.z);
+            "Z: " + transform.position.z); */
     }
 
     public void RightPress()
     {
         transform.position += speed * Vector3.right * Time.deltaTime;
+        /*
         Debug.Log("X: " + transform.position.x + "," +
             "Y: " + transform.position.y + "," +
-            "Z: " + transform.position.z);
+            "Z: " + transform.position.z); */
     }
 
     public void AirplaneModePressON()
@@ -67,18 +71,20 @@ public class platformMovement : MonoBehaviour
         {
             int tempSpeed = 2;
             transform.position += tempSpeed * Vector3.forward * Time.deltaTime;
+            /*
             Debug.Log("X: " + transform.position.x + "," +
            "Y: " + transform.position.y + "," +
-           "Z: " + transform.position.z);
+           "Z: " + transform.position.z); */
         }
 
         if (forward == false)
         {
             int tempSpeed = 0;
             transform.position += tempSpeed * Vector3.forward * Time.deltaTime; ;
+            /*
             Debug.Log("X: " + transform.position.x + "," +
            "Y: " + transform.position.y + "," +
-           "Z: " + transform.position.z);
+           "Z: " + transform.position.z);  */
         }
 
 
