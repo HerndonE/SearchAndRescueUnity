@@ -7,8 +7,8 @@
 ![](https://img.shields.io/github/stars/HerndonE/SearchAndRescueUnity?style=social)
 ![](https://img.shields.io/github/forks/HerndonE/SearchAndRescueUnity?style=social)
 ### Description:
-1. [Download PC Version Here]()
-2. [Download Android Version Here]()
+1. [Download PC Version Here](https://github.com/HerndonE/SearchAndRescueUnity/blob/main/Unity/AR%20Demo/Builds/PCBuild.zip?raw=true)
+2. [Download Android Version Here](https://github.com/HerndonE/SearchAndRescueUnity/blob/main/Unity/AR%20Demo/Builds/AndroidBuild/ARDemoTest.apk?raw=true)
 <p float="left">
   <img src="https://github.com/HerndonE/SearchAndRescueUnity/blob/main/Images/BIGGER%20HEAD.png?raw=true" width="200" />
 </p>
