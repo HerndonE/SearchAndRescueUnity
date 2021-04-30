@@ -1,0 +1,459 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.4f1 (0abb6314276a) revision 703331'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19041.928; Version 2004; 64bit' Language: 'en' Physical Memory: 16246 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/HerndonE/Desktop/CapstoneProject/SearchAndRescueUnity/Unity/AR Demo
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50574
+Successfully changed project path to: C:/Users/HerndonE/Desktop/CapstoneProject/SearchAndRescueUnity/Unity/AR Demo
+C:/Users/HerndonE/Desktop/CapstoneProject/SearchAndRescueUnity/Unity/AR Demo
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 59.10 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.4f1 (0abb6314276a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/HerndonE/Desktop/CapstoneProject/SearchAndRescueUnity/Unity/AR Demo/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2182)
+    Vendor:   
+    VRAM:     5991 MB
+    Driver:   27.21.14.6611
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56132
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001706 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 44.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.365 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003574 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 45.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.813 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+CustomForwardRendererData is missing RendererFeatures
+This could be due to missing scripts or compile error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+UnityEngine.Rendering.Universal.ScriptableRendererData:ValidateRendererFeatures () (at Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:135)
+UnityEngine.Rendering.Universal.ScriptableRendererData:OnValidate () (at Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:59)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs Line: 135)
+
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2987 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.2 MB.
+System memory in use after: 136.4 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3421.
+Total: 2.016000 ms (FindLiveObjects: 0.299700 ms CreateObjectMapping: 0.151900 ms MarkObjects: 1.497400 ms  DeleteObjects: 0.066200 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Natalia/Scenes/PlayerHeli.prefab
+  artifactKey: Guid(55ca28d1d84931a46b7ee5404690aa5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natalia/Scenes/PlayerHeli.prefab using Guid(55ca28d1d84931a46b7ee5404690aa5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '827fbeeeed8f71af5ca47122a0fe8254') in 1.016876 seconds
+  Import took 1.021331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Natalia/Scenes/ground.mat
+  artifactKey: Guid(c08cae9e000518f468ee41d009f484e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natalia/Scenes/ground.mat using Guid(c08cae9e000518f468ee41d009f484e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e559cc58dd04a7015dde4be9da04937') in 0.326154 seconds
+  Import took 0.331424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Natalia/Scenes/TestCube.prefab
+  artifactKey: Guid(5cda02acd7d6e0148858d92f934f3232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natalia/Scenes/TestCube.prefab using Guid(5cda02acd7d6e0148858d92f934f3232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05162b6ac54c85aa9da9266fb3b738f5') in 0.028789 seconds
+  Import took 0.033508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Natalia/Scenes/PlayerNetworking.prefab
+  artifactKey: Guid(cf5f915b21cba384daa22941fbfba731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natalia/Scenes/PlayerNetworking.prefab using Guid(cf5f915b21cba384daa22941fbfba731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '153766b03405edc2925f7e55381a2d34') in 0.027621 seconds
+  Import took 0.033596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Natalia/Scenes/NewPlayer.prefab
+  artifactKey: Guid(911d54112be26714e87d5582013f6265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natalia/Scenes/NewPlayer.prefab using Guid(911d54112be26714e87d5582013f6265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ae32e2ec6025d8e5f89779e21d8def4') in 0.028670 seconds
+  Import took 0.034528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Natalia/Scenes
+  artifactKey: Guid(55c8b0eb5847c9745873edad860511be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natalia/Scenes using Guid(55c8b0eb5847c9745873edad860511be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '067eb8fff156b446f69a44ed6e4166b9') in 0.005035 seconds
+  Import took 0.009188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Natalia/Scenes/NetworkPlayer.prefab
+  artifactKey: Guid(20de3f6ad8a101d4f8af5a9b03bd7917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natalia/Scenes/NetworkPlayer.prefab using Guid(20de3f6ad8a101d4f8af5a9b03bd7917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e45d17f0573dbf1b0deb13c63a91bb17') in 0.015126 seconds
+  Import took 0.019142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Natalia/Scenes/PlayerObj.prefab
+  artifactKey: Guid(a1f139d86b8a5304db16591285e75672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natalia/Scenes/PlayerObj.prefab using Guid(a1f139d86b8a5304db16591285e75672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f9635f7d338e264d89d3172bd9ac698') in 0.019750 seconds
+  Import took 0.023503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.491611 seconds.
+  path: Assets/Natalia/Scenes/FullNetwork.unity
+  artifactKey: Guid(bef8d13f4b977884bae6eb44beee983c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natalia/Scenes/FullNetwork.unity using Guid(bef8d13f4b977884bae6eb44beee983c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84f3128959e825ddbfd67fa518f6af6f') in 0.006326 seconds
+  Import took 0.010646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.146030 seconds.
+  path: Assets/Natalia/Scenes/Natalia.unity
+  artifactKey: Guid(764e23e9d426c18469cba52273cc098c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natalia/Scenes/Natalia.unity using Guid(764e23e9d426c18469cba52273cc098c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebf7b782cbfb5b6e88add5c412cf4cd0') in 0.005272 seconds
+  Import took 0.009852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.298185 seconds.
+  path: Assets/Natalia/Scenes/RileyNetwork.cs
+  artifactKey: Guid(090e125c377dcdc4e83cf3adb0138a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natalia/Scenes/RileyNetwork.cs using Guid(090e125c377dcdc4e83cf3adb0138a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba456d34b3abe7f3a650696278006cbc') in 0.011610 seconds
+  Import took 0.015907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010515 seconds.
+  path: Assets/Natalia/Scenes/RileyNetwork.cs
+  artifactKey: Guid(090e125c377dcdc4e83cf3adb0138a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natalia/Scenes/RileyNetwork.cs using Guid(090e125c377dcdc4e83cf3adb0138a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba456d34b3abe7f3a650696278006cbc') in 0.002367 seconds
+  Import took 0.006435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.292731 seconds.
+  path: Assets/Natalia/Scenes/SecondTut.unity
+  artifactKey: Guid(8722aefecafacf44cba2e15ef0e33175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natalia/Scenes/SecondTut.unity using Guid(8722aefecafacf44cba2e15ef0e33175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dc3c3d923d12cb4d37eff21d469b9c2') in 0.005763 seconds
+  Import took 0.010457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.446165 seconds.
+  path: Assets/Natalia/Scenes/TestPaint.unity
+  artifactKey: Guid(4916083fdbf0b624d9c3dee1efd37f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natalia/Scenes/TestPaint.unity using Guid(4916083fdbf0b624d9c3dee1efd37f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f851c1ac96ffbd618801988a428393b0') in 0.005419 seconds
+  Import took 0.009497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000778 seconds.
+  path: Assets/Natalia/Scenes/TestPaint.unity
+  artifactKey: Guid(4916083fdbf0b624d9c3dee1efd37f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natalia/Scenes/TestPaint.unity using Guid(4916083fdbf0b624d9c3dee1efd37f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f851c1ac96ffbd618801988a428393b0') in 0.006471 seconds
+  Import took 0.010484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.287804 seconds.
+  path: Assets/Ethan/Scenes
+  artifactKey: Guid(3d2c5341b1b2ae14ea9d1895022db52d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ethan/Scenes using Guid(3d2c5341b1b2ae14ea9d1895022db52d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b64b80a9b3c99c38f9e889fb29057754') in 0.001628 seconds
+  Import took 0.005682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.362429 seconds.
+  path: Assets/Ethan/Scenes/TestPaint.unity
+  artifactKey: Guid(a62d0414822d79d49a0eb34e4cc8fb19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ethan/Scenes/TestPaint.unity using Guid(a62d0414822d79d49a0eb34e4cc8fb19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '526a58b390fd247725a68345e6980a66') in 0.002339 seconds
+  Import took 0.006319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.448419 seconds.
+  path: Assets/Natalia/Scenes/AAAPaint.unity
+  artifactKey: Guid(d4d5b74980cd923488e9d5ce4ef2a88f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natalia/Scenes/AAAPaint.unity using Guid(d4d5b74980cd923488e9d5ce4ef2a88f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18e1a063ff4583b751ae56b1134a65cd') in 0.005489 seconds
+  Import took 0.009999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.251097 seconds.
+  path: Assets/Ethan/Scenes/AAAPaint.unity
+  artifactKey: Guid(1ad599a9f9c88f24db8c559fdac1d951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ethan/Scenes/AAAPaint.unity using Guid(1ad599a9f9c88f24db8c559fdac1d951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64744875c1b687d27f1ba09be13afd81') in 0.002373 seconds
+  Import took 0.006414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 263.133765 seconds.
+  path: Assets/Ethan/Prefabs/Canvas.prefab
+  artifactKey: Guid(d0408b63cd133cc468ed549c9fe1efb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ethan/Prefabs/Canvas.prefab using Guid(d0408b63cd133cc468ed549c9fe1efb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2269456a5e191dfa882c52f8df1a7838') in 0.013523 seconds
+  Import took 0.017720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Ethan/Prefabs/unnamed.png
+  artifactKey: Guid(1cc244eacff95a24da0fc3ba094122b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ethan/Prefabs/unnamed.png using Guid(1cc244eacff95a24da0fc3ba094122b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45ef5638b6c34d08789ce699539da3b9') in 0.046624 seconds
+  Import took 0.050453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Ethan/Prefabs/Player1.prefab
+  artifactKey: Guid(c928e1b82ea126a4da78b962166c5b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ethan/Prefabs/Player1.prefab using Guid(c928e1b82ea126a4da78b962166c5b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dc59a640a67eb8f41330bd8730229f8') in 0.011642 seconds
+  Import took 0.015530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Ethan/Prefabs/Cube.prefab
+  artifactKey: Guid(064ddba0e02f7b644bda025e01b8c341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ethan/Prefabs/Cube.prefab using Guid(064ddba0e02f7b644bda025e01b8c341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbcaa95a2c414a550b7a5da1dc9fba0d') in 0.037214 seconds
+  Import took 0.041265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 223.331642 seconds.
+  path: Assets/Ethan/Scripts
+  artifactKey: Guid(c667bcd11b574264a9e89150ff13e9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ethan/Scripts using Guid(c667bcd11b574264a9e89150ff13e9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97b97b651be3d1f6a357b25e826ec273') in 0.005236 seconds
+  Import took 0.010428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000699 seconds.
+  path: Assets/Ethan/Scripts
+  artifactKey: Guid(c667bcd11b574264a9e89150ff13e9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ethan/Scripts using Guid(c667bcd11b574264a9e89150ff13e9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97b97b651be3d1f6a357b25e826ec273') in 0.001871 seconds
+  Import took 0.007682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.078341 seconds.
+  path: Assets/Ethan/Scripts/IPAddress.cs
+  artifactKey: Guid(05d60e6f0d76c9b409a917de56d88d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ethan/Scripts/IPAddress.cs using Guid(05d60e6f0d76c9b409a917de56d88d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b060a35c37865ac934158b11508432b6') in 0.006321 seconds
+  Import took 0.011217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 72.493504 seconds.
+  path: Assets/Ethan/Scripts/rotate.cs
+  artifactKey: Guid(7f299cd9166a81244bf33a910ab9e7d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ethan/Scripts/rotate.cs using Guid(7f299cd9166a81244bf33a910ab9e7d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6334c63b85a945cb3d7b44901c604401') in 0.006540 seconds
+  Import took 0.011439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.850158 seconds.
+  path: Assets/Ethan/Scripts/platformMovement.cs
+  artifactKey: Guid(713c699dbb766df4cb28cfa66c2419e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ethan/Scripts/platformMovement.cs using Guid(713c699dbb766df4cb28cfa66c2419e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ba8e829f8e154fe80d87506d025a997') in 0.005437 seconds
+  Import took 0.009506 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003598 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CustomForwardRendererData is missing RendererFeatures
+This could be due to missing scripts or compile error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+UnityEngine.Rendering.Universal.ScriptableRendererData:ValidateRendererFeatures () (at Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:135)
+UnityEngine.Rendering.Universal.ScriptableRendererData:OnValidate () (at Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:59)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs Line: 135)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.825 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2866 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.7 MB.
+System memory in use after: 134.9 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3512.
+Total: 2.124200 ms (FindLiveObjects: 0.302400 ms CreateObjectMapping: 0.139900 ms MarkObjects: 1.632400 ms  DeleteObjects: 0.048600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003516 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CustomForwardRendererData is missing RendererFeatures
+This could be due to missing scripts or compile error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+UnityEngine.Rendering.Universal.ScriptableRendererData:ValidateRendererFeatures () (at Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:135)
+UnityEngine.Rendering.Universal.ScriptableRendererData:OnValidate () (at Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:59)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs Line: 135)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.000 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2865 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.7 MB.
+System memory in use after: 134.9 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3516.
+Total: 2.774800 ms (FindLiveObjects: 0.333000 ms CreateObjectMapping: 0.143100 ms MarkObjects: 2.238300 ms  DeleteObjects: 0.059100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003719 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CustomForwardRendererData is missing RendererFeatures
+This could be due to missing scripts or compile error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+UnityEngine.Rendering.Universal.ScriptableRendererData:ValidateRendererFeatures () (at Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:135)
+UnityEngine.Rendering.Universal.ScriptableRendererData:OnValidate () (at Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:59)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs Line: 135)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.900 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2869 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.9 MB.
+System memory in use after: 133.1 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3520.
+Total: 2.198600 ms (FindLiveObjects: 0.321900 ms CreateObjectMapping: 0.141400 ms MarkObjects: 1.698600 ms  DeleteObjects: 0.035500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.80 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.4 MB.
+System memory in use after: 75.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3520.
+Total: 4.339500 ms (FindLiveObjects: 0.643300 ms CreateObjectMapping: 0.571600 ms MarkObjects: 3.087800 ms  DeleteObjects: 0.035400 ms)
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.4 MB.
+System memory in use after: 75.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3521.
+Total: 2.262700 ms (FindLiveObjects: 0.328700 ms CreateObjectMapping: 0.147600 ms MarkObjects: 1.772400 ms  DeleteObjects: 0.012700 ms)
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.75 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.3 MB.
+System memory in use after: 75.6 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3521.
+Total: 2.566200 ms (FindLiveObjects: 0.399100 ms CreateObjectMapping: 0.168100 ms MarkObjects: 1.982200 ms  DeleteObjects: 0.016000 ms)
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.3 MB.
+System memory in use after: 75.6 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3521.
+Total: 2.726200 ms (FindLiveObjects: 0.334300 ms CreateObjectMapping: 0.166300 ms MarkObjects: 2.207500 ms  DeleteObjects: 0.016600 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
