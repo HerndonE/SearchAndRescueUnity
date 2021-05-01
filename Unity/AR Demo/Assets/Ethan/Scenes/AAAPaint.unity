@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.43541613, g: 0.5930195, b: 0.8128287, a: 1}
+  m_IndirectSpecularColor: {r: 0.4362467, g: 0.5936756, b: 0.81309694, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -185,7 +185,7 @@ RectTransform:
   m_GameObject: {fileID: 44133622}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 1, z: 1}
   m_Children:
   - {fileID: 1587176259}
   m_Father: {fileID: 12661419}
@@ -193,7 +193,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 135.4}
+  m_AnchoredPosition: {x: 196, y: 180}
   m_SizeDelta: {x: 230, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &44133624
@@ -421,8 +421,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
+      - m_Target: {fileID: 6351884226543181225}
+        m_TargetAssemblyTypeName: platformMovement, Assembly-CSharp
         m_MethodName: ForwardPress
         m_Mode: 1
         m_Arguments:
@@ -2034,7 +2034,7 @@ RectTransform:
   m_GameObject: {fileID: 688794579}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 1, z: 1}
   m_Children:
   - {fileID: 1518632287}
   m_Father: {fileID: 12661419}
@@ -2042,7 +2042,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -108}
+  m_AnchoredPosition: {x: 196, y: -108}
   m_SizeDelta: {x: 230, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &688794581
@@ -2222,8 +2222,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
+      - m_Target: {fileID: 6351884226543181225}
+        m_TargetAssemblyTypeName: platformMovement, Assembly-CSharp
         m_MethodName: AirplaneModePressOFF
         m_Mode: 1
         m_Arguments:
@@ -2375,7 +2375,7 @@ RectTransform:
   m_GameObject: {fileID: 759859151}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children:
   - {fileID: 1644170367}
   - {fileID: 1513683288}
@@ -2384,7 +2384,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 196, y: 0}
   m_SizeDelta: {x: 230, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &759859153
@@ -2744,8 +2744,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
+      - m_Target: {fileID: 6351884226543181225}
+        m_TargetAssemblyTypeName: platformMovement, Assembly-CSharp
         m_MethodName: LeftPress
         m_Mode: 1
         m_Arguments:
@@ -2869,52 +2869,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 941710426}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &979411349
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 979411351}
-  - component: {fileID: 979411350}
-  m_Layer: 0
-  m_Name: PlaceHolder
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &979411350
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 979411349}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e13938a88a1bf354e9e9cb03548ba2ee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gridObject: {fileID: 6683738269326514216, guid: 62243213c6df0f747a1fd68ef61c5eb6,
-    type: 3}
-  gridSize: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
---- !u!4 &979411351
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 979411349}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &988917074
 GameObject:
   m_ObjectHideFlags: 0
@@ -3006,7 +2960,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1001 &1010365545
 PrefabInstance:
@@ -3166,8 +3120,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
+      - m_Target: {fileID: 6351884226543181225}
+        m_TargetAssemblyTypeName: platformMovement, Assembly-CSharp
         m_MethodName: RightPress
         m_Mode: 1
         m_Arguments:
@@ -3285,14 +3239,14 @@ RectTransform:
   m_GameObject: {fileID: 1031032080}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 12661419}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 52.69}
+  m_AnchoredPosition: {x: 196, y: 80}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1113008676
@@ -3489,8 +3443,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
+      - m_Target: {fileID: 6351884226543181225}
+        m_TargetAssemblyTypeName: platformMovement, Assembly-CSharp
         m_MethodName: BackwardPress
         m_Mode: 1
         m_Arguments:
@@ -4035,7 +3989,7 @@ GameObject:
   - component: {fileID: 1499711839}
   - component: {fileID: 1499711838}
   m_Layer: 0
-  m_Name: IPManager
+  m_Name: Placeholder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4066,7 +4020,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1513683287
 GameObject:
@@ -4811,8 +4765,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
+      - m_Target: {fileID: 6351884226543181225}
+        m_TargetAssemblyTypeName: platformMovement, Assembly-CSharp
         m_MethodName: AirplaneModePressON
         m_Mode: 1
         m_Arguments:
@@ -5206,6 +5160,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerHeli
       objectReference: {fileID: 0}
+    - target: {fileID: 6351884225754340753, guid: 55ca28d1d84931a46b7ee5404690aa5a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6351884225754340757, guid: 55ca28d1d84931a46b7ee5404690aa5a,
         type: 3}
       propertyPath: m_RootOrder
@@ -5263,3 +5222,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 55ca28d1d84931a46b7ee5404690aa5a, type: 3}
+--- !u!114 &6351884226543181225 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6351884225754340754, guid: 55ca28d1d84931a46b7ee5404690aa5a,
+    type: 3}
+  m_PrefabInstance: {fileID: 6351884226543181224}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1409138745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 713c699dbb766df4cb28cfa66c2419e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
