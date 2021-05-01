@@ -7,6 +7,7 @@ ScriptsOnlyBuild:
     - Paintable
     - Patterns
     - RileyNetwork
+    - operatingSystemDetection
     - platformMovement
     Photon Realtime MLAPI Transport.dll:
     - Photon.Realtime.PhotonAppSettings
@@ -139,121 +140,123 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1632}
     - Class: 114
-      Script: {instanceID: 1648}
+      Script: {instanceID: 1640}
     - Class: 114
-      Script: {instanceID: 1760}
+      Script: {instanceID: 1752}
     - Class: 114
-      Script: {instanceID: 1790}
+      Script: {instanceID: 1782}
     - Class: 114
-      Script: {instanceID: 2294}
+      Script: {instanceID: 2286}
     - Class: 114
-      Script: {instanceID: 2306}
+      Script: {instanceID: 2298}
     - Class: 114
-      Script: {instanceID: 2386}
+      Script: {instanceID: 2378}
     - Class: 114
-      Script: {instanceID: 2588}
+      Script: {instanceID: 2580}
     - Class: 114
-      Script: {instanceID: 2800}
+      Script: {instanceID: 2792}
     - Class: 114
-      Script: {instanceID: 3010}
+      Script: {instanceID: 3002}
     - Class: 114
-      Script: {instanceID: 3084}
+      Script: {instanceID: 3076}
     - Class: 114
-      Script: {instanceID: 3130}
+      Script: {instanceID: 3122}
     - Class: 114
-      Script: {instanceID: 3148}
+      Script: {instanceID: 3140}
     - Class: 114
-      Script: {instanceID: 3152}
+      Script: {instanceID: 3144}
     - Class: 114
-      Script: {instanceID: 3204}
+      Script: {instanceID: 3196}
     - Class: 114
-      Script: {instanceID: 3302}
+      Script: {instanceID: 3294}
     - Class: 114
-      Script: {instanceID: 3414}
+      Script: {instanceID: 3406}
     - Class: 114
-      Script: {instanceID: 3494}
+      Script: {instanceID: 3486}
     - Class: 114
-      Script: {instanceID: 3676}
+      Script: {instanceID: 3668}
     - Class: 114
-      Script: {instanceID: 3776}
+      Script: {instanceID: 3768}
     - Class: 114
-      Script: {instanceID: 4040}
+      Script: {instanceID: 4032}
     - Class: 114
-      Script: {instanceID: 4092}
+      Script: {instanceID: 4084}
     - Class: 114
-      Script: {instanceID: 4382}
+      Script: {instanceID: 4374}
     - Class: 114
-      Script: {instanceID: 4762}
+      Script: {instanceID: 4754}
     - Class: 114
-      Script: {instanceID: 4774}
+      Script: {instanceID: 4766}
     - Class: 114
-      Script: {instanceID: 4828}
+      Script: {instanceID: 4820}
     - Class: 114
-      Script: {instanceID: 4998}
+      Script: {instanceID: 4990}
     - Class: 114
-      Script: {instanceID: 5000}
+      Script: {instanceID: 4992}
     - Class: 114
-      Script: {instanceID: 5016}
+      Script: {instanceID: 5008}
     - Class: 114
-      Script: {instanceID: 5064}
+      Script: {instanceID: 5056}
     - Class: 114
-      Script: {instanceID: 5080}
+      Script: {instanceID: 5072}
     - Class: 114
-      Script: {instanceID: 5246}
+      Script: {instanceID: 5238}
     - Class: 114
-      Script: {instanceID: 5346}
+      Script: {instanceID: 5338}
     - Class: 114
-      Script: {instanceID: 5364}
+      Script: {instanceID: 5356}
     - Class: 114
-      Script: {instanceID: 5458}
+      Script: {instanceID: 5450}
     - Class: 114
-      Script: {instanceID: 5522}
+      Script: {instanceID: 5514}
     - Class: 114
-      Script: {instanceID: 5528}
+      Script: {instanceID: 5520}
     - Class: 114
-      Script: {instanceID: 5614}
+      Script: {instanceID: 5606}
     - Class: 114
-      Script: {instanceID: 5650}
+      Script: {instanceID: 5642}
     - Class: 114
-      Script: {instanceID: 5660}
+      Script: {instanceID: 5652}
     - Class: 114
-      Script: {instanceID: 5690}
+      Script: {instanceID: 5682}
     - Class: 114
-      Script: {instanceID: 5754}
+      Script: {instanceID: 5746}
     - Class: 114
-      Script: {instanceID: 5764}
+      Script: {instanceID: 5756}
     - Class: 114
-      Script: {instanceID: 5870}
+      Script: {instanceID: 5862}
     - Class: 114
-      Script: {instanceID: 5996}
+      Script: {instanceID: 5988}
     - Class: 114
-      Script: {instanceID: 6110}
+      Script: {instanceID: 6102}
     - Class: 114
-      Script: {instanceID: 6158}
+      Script: {instanceID: 6150}
     - Class: 114
-      Script: {instanceID: 6174}
+      Script: {instanceID: 6166}
+    - Class: 114
+      Script: {instanceID: 6376}
     - Class: 114
       Script: {instanceID: 6384}
     - Class: 114
-      Script: {instanceID: 6392}
+      Script: {instanceID: 6444}
     - Class: 114
-      Script: {instanceID: 6452}
+      Script: {instanceID: 6548}
     - Class: 114
-      Script: {instanceID: 6556}
+      Script: {instanceID: 6662}
     - Class: 114
-      Script: {instanceID: 6670}
+      Script: {instanceID: 6706}
     - Class: 114
-      Script: {instanceID: 6714}
+      Script: {instanceID: 6826}
     - Class: 114
-      Script: {instanceID: 6834}
+      Script: {instanceID: 6976}
     - Class: 114
-      Script: {instanceID: 6984}
+      Script: {instanceID: 7182}
     - Class: 114
-      Script: {instanceID: 7190}
+      Script: {instanceID: 7188}
     - Class: 114
-      Script: {instanceID: 7196}
+      Script: {instanceID: 20244}
     - Class: 114
-      Script: {instanceID: 26302}
+      Script: {instanceID: 24760}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1531,6 +1534,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 2f05a6198944ec3cc7a1ac2725f3aeb8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: operatingSystemDetection
   platform: 13
   scenePathNames:
   - Assets/Ethan/Scenes/AAAPaint.unity
