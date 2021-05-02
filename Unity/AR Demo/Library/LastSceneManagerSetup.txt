@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Ethan/Scenes/SPIRAL_PAINT.unity
+- path: Assets/Ethan/Scenes/AAAPaint.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
