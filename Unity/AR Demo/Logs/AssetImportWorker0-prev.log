@@ -15,11 +15,11 @@ C:/Users/HerndonE/Desktop/CapstoneProject/SearchAndRescueUnity/Unity/AR Demo
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50248
+51313
 Successfully changed project path to: C:/Users/HerndonE/Desktop/CapstoneProject/SearchAndRescueUnity/Unity/AR Demo
 C:/Users/HerndonE/Desktop/CapstoneProject/SearchAndRescueUnity/Unity/AR Demo
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 45.58 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 46.56 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.4f1 (0abb6314276a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Resources/UnitySubsystems
@@ -36,28 +36,28 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56124
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56552
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001686 seconds.
+Registered in 0.001659 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 45.17 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 47.46 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.331 seconds
+- Completed reload, in  1.471 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003646 seconds.
+Registered in 0.003975 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 45.21 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 53.62 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.809 seconds
+- Completed reload, in  0.849 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
@@ -74,30 +74,46 @@ UnityEngine.Rendering.Universal.ScriptableRendererData:OnValidate () (at Library
 
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2989 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 138.3 MB.
-System memory in use after: 138.5 MB.
+Unloading 2991 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.2 MB.
+System memory in use after: 136.4 MB.
 
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3425.
-Total: 2.006200 ms (FindLiveObjects: 0.274400 ms CreateObjectMapping: 0.135800 ms MarkObjects: 1.527600 ms  DeleteObjects: 0.067700 ms)
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3426.
+Total: 1.949600 ms (FindLiveObjects: 0.291500 ms CreateObjectMapping: 0.140000 ms MarkObjects: 1.459700 ms  DeleteObjects: 0.057700 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Ethan/Scenes/AAAPaint.unity
-  artifactKey: Guid(1ad599a9f9c88f24db8c559fdac1d951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ethan/Scenes/AAAPaint.unity using Guid(1ad599a9f9c88f24db8c559fdac1d951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8934c6d4e009d508adcbc8a6e0eab524') in 0.012828 seconds
-  Import took 0.016353 seconds .
+  path: Assets/Ethan/Scripts/operatingSystemDetection.cs
+  artifactKey: Guid(7c6dd8059117afc4dab0560835ecb293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ethan/Scripts/operatingSystemDetection.cs using Guid(7c6dd8059117afc4dab0560835ecb293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a6bd47d466579e14ca212a9c59f26c9') in 0.020666 seconds
+  Import took 0.024210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.301527 seconds.
+  path: Assets/Ethan/Scripts/gridMaker.cs
+  artifactKey: Guid(e13938a88a1bf354e9e9cb03548ba2ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ethan/Scripts/gridMaker.cs using Guid(e13938a88a1bf354e9e9cb03548ba2ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55efd6e529e5341d71ce68de36a76927') in 0.005900 seconds
+  Import took 0.009950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001561 seconds.
+  path: Assets/Ethan/Scripts/gridMaker.cs
+  artifactKey: Guid(e13938a88a1bf354e9e9cb03548ba2ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ethan/Scripts/gridMaker.cs using Guid(e13938a88a1bf354e9e9cb03548ba2ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55efd6e529e5341d71ce68de36a76927') in 0.002184 seconds
+  Import took 0.006077 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003708 seconds.
+Registered in 0.003739 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 CustomForwardRendererData is missing RendererFeatures
 This could be due to missing scripts or compile error.
@@ -111,115 +127,354 @@ UnityEngine.Rendering.Universal.ScriptableRendererData:OnValidate () (at Library
 (Filename: Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs Line: 135)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.820 seconds
+- Completed reload, in  0.743 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2869 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2870 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 127.4 MB.
+System memory in use after: 127.6 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3430.
+Total: 2.293500 ms (FindLiveObjects: 0.290100 ms CreateObjectMapping: 0.141400 ms MarkObjects: 1.829800 ms  DeleteObjects: 0.031400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003921 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CustomForwardRendererData is missing RendererFeatures
+This could be due to missing scripts or compile error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+UnityEngine.Rendering.Universal.ScriptableRendererData:ValidateRendererFeatures () (at Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:135)
+UnityEngine.Rendering.Universal.ScriptableRendererData:OnValidate () (at Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:59)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs Line: 135)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.877 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2870 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.5 MB.
 System memory in use after: 127.7 MB.
 
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3429.
-Total: 1.970500 ms (FindLiveObjects: 0.240200 ms CreateObjectMapping: 0.113700 ms MarkObjects: 1.584100 ms  DeleteObjects: 0.031800 ms)
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3434.
+Total: 2.177000 ms (FindLiveObjects: 0.271000 ms CreateObjectMapping: 0.114000 ms MarkObjects: 1.755400 ms  DeleteObjects: 0.035500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003579 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CustomForwardRendererData is missing RendererFeatures
+This could be due to missing scripts or compile error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+UnityEngine.Rendering.Universal.ScriptableRendererData:ValidateRendererFeatures () (at Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:135)
+UnityEngine.Rendering.Universal.ScriptableRendererData:OnValidate () (at Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:59)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs Line: 135)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.748 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2870 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.5 MB.
+System memory in use after: 127.7 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3438.
+Total: 2.003700 ms (FindLiveObjects: 0.283400 ms CreateObjectMapping: 0.134000 ms MarkObjects: 1.554300 ms  DeleteObjects: 0.031300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004114 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Cancelling DisplayDialogComplex: Do you like ParrelSync? Do you like ParrelSync?
+If so, please don't hesitate to star it on GitHub and contribute to the project!
+This should not be called in batch mode.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+ParrelSync.NonCore.AskFeedbackDialog:ShowDialog () (at Library/PackageCache/com.veriorpies.parrelsync@efac099e5a/Editor/NonCore/AskFeedbackDialog.cs:35)
+ParrelSync.NonCore.AskFeedbackDialog:.cctor () (at Library/PackageCache/com.veriorpies.parrelsync@efac099e5a/Editor/NonCore/AskFeedbackDialog.cs:24)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.veriorpies.parrelsync@efac099e5a/Editor/NonCore/AskFeedbackDialog.cs line 35]
+
+AskFeedbackDialog: Close and never show again.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ParrelSync.NonCore.AskFeedbackDialog:ShowDialog () (at Library/PackageCache/com.veriorpies.parrelsync@efac099e5a/Editor/NonCore/AskFeedbackDialog.cs:54)
+ParrelSync.NonCore.AskFeedbackDialog:.cctor () (at Library/PackageCache/com.veriorpies.parrelsync@efac099e5a/Editor/NonCore/AskFeedbackDialog.cs:24)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.veriorpies.parrelsync@efac099e5a/Editor/NonCore/AskFeedbackDialog.cs Line: 54)
+
+CustomForwardRendererData is missing RendererFeatures
+This could be due to missing scripts or compile error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+UnityEngine.Rendering.Universal.ScriptableRendererData:ValidateRendererFeatures () (at Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:135)
+UnityEngine.Rendering.Universal.ScriptableRendererData:OnValidate () (at Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:59)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs Line: 135)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.749 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2870 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.5 MB.
+System memory in use after: 127.7 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3442.
+Total: 2.007300 ms (FindLiveObjects: 0.312600 ms CreateObjectMapping: 0.143000 ms MarkObjects: 1.520400 ms  DeleteObjects: 0.030600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004024 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CustomForwardRendererData is missing RendererFeatures
+This could be due to missing scripts or compile error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+UnityEngine.Rendering.Universal.ScriptableRendererData:ValidateRendererFeatures () (at Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:135)
+UnityEngine.Rendering.Universal.ScriptableRendererData:OnValidate () (at Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:59)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs Line: 135)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.888 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2870 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.5 MB.
+System memory in use after: 127.8 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3446.
+Total: 2.208000 ms (FindLiveObjects: 0.312000 ms CreateObjectMapping: 0.178300 ms MarkObjects: 1.679400 ms  DeleteObjects: 0.037300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003678 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CustomForwardRendererData is missing RendererFeatures
+This could be due to missing scripts or compile error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+UnityEngine.Rendering.Universal.ScriptableRendererData:ValidateRendererFeatures () (at Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:135)
+UnityEngine.Rendering.Universal.ScriptableRendererData:OnValidate () (at Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:59)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs Line: 135)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.758 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2870 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.6 MB.
+System memory in use after: 127.8 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3450.
+Total: 1.996400 ms (FindLiveObjects: 0.247900 ms CreateObjectMapping: 0.119600 ms MarkObjects: 1.596800 ms  DeleteObjects: 0.031400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Prepare
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 2.67 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 2.48 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.3 MB.
-System memory in use after: 70.5 MB.
+System memory in use before: 70.6 MB.
+System memory in use after: 70.8 MB.
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3429.
-Total: 1.957500 ms (FindLiveObjects: 0.268100 ms CreateObjectMapping: 0.129700 ms MarkObjects: 1.533500 ms  DeleteObjects: 0.025400 ms)
-
-========================================================================
-Received Prepare
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 2.36 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.3 MB.
-System memory in use after: 70.5 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3429.
-Total: 2.056100 ms (FindLiveObjects: 0.275800 ms CreateObjectMapping: 0.139900 ms MarkObjects: 1.610100 ms  DeleteObjects: 0.029300 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3451.
+Total: 2.502200 ms (FindLiveObjects: 0.366600 ms CreateObjectMapping: 0.145400 ms MarkObjects: 1.956000 ms  DeleteObjects: 0.032900 ms)
 
 ========================================================================
 Received Prepare
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 2.69 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.3 MB.
-System memory in use after: 70.5 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3430.
-Total: 2.736400 ms (FindLiveObjects: 0.427700 ms CreateObjectMapping: 0.153800 ms MarkObjects: 2.134500 ms  DeleteObjects: 0.018700 ms)
-
-========================================================================
-Received Prepare
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 2.44 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 3.33 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.2 MB.
-System memory in use after: 70.4 MB.
+System memory in use before: 70.5 MB.
+System memory in use after: 70.7 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3430.
-Total: 1.892700 ms (FindLiveObjects: 0.241500 ms CreateObjectMapping: 0.113200 ms MarkObjects: 1.526100 ms  DeleteObjects: 0.011200 ms)
-
-========================================================================
-Received Prepare
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 2.40 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.2 MB.
-System memory in use after: 70.4 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3430.
-Total: 2.985600 ms (FindLiveObjects: 0.263700 ms CreateObjectMapping: 0.127200 ms MarkObjects: 2.577800 ms  DeleteObjects: 0.016000 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3451.
+Total: 2.620900 ms (FindLiveObjects: 0.367200 ms CreateObjectMapping: 0.251700 ms MarkObjects: 1.981500 ms  DeleteObjects: 0.019600 ms)
 
 ========================================================================
 Received Prepare
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 2.41 ms, found 0 plugins.
+Registering precompiled user dll's ...
+Registered in 0.004002 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.2 MB.
-System memory in use after: 70.4 MB.
+CustomForwardRendererData is missing RendererFeatures
+This could be due to missing scripts or compile error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+UnityEngine.Rendering.Universal.ScriptableRendererData:ValidateRendererFeatures () (at Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:135)
+UnityEngine.Rendering.Universal.ScriptableRendererData:OnValidate () (at Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:59)
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3430.
-Total: 1.888700 ms (FindLiveObjects: 0.309500 ms CreateObjectMapping: 0.104900 ms MarkObjects: 1.461900 ms  DeleteObjects: 0.011600 ms)
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs Line: 135)
 
+Mono: successfully reloaded assembly
+- Completed reload, in  0.776 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2869 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.3 MB.
+System memory in use after: 127.5 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3454.
+Total: 2.020900 ms (FindLiveObjects: 0.238900 ms CreateObjectMapping: 0.115700 ms MarkObjects: 1.633900 ms  DeleteObjects: 0.031500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Prepare
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 2.41 ms, found 0 plugins.
+Registering precompiled user dll's ...
+Registered in 0.003515 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.2 MB.
-System memory in use after: 70.5 MB.
+CustomForwardRendererData is missing RendererFeatures
+This could be due to missing scripts or compile error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+UnityEngine.Rendering.Universal.ScriptableRendererData:ValidateRendererFeatures () (at Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:135)
+UnityEngine.Rendering.Universal.ScriptableRendererData:OnValidate () (at Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:59)
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3430.
-Total: 3.111500 ms (FindLiveObjects: 0.334300 ms CreateObjectMapping: 0.155800 ms MarkObjects: 2.604900 ms  DeleteObjects: 0.015200 ms)
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs Line: 135)
 
+Mono: successfully reloaded assembly
+- Completed reload, in  0.773 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2870 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.6 MB.
+System memory in use after: 127.8 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3458.
+Total: 2.351800 ms (FindLiveObjects: 0.261000 ms CreateObjectMapping: 0.132500 ms MarkObjects: 1.923600 ms  DeleteObjects: 0.033700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Prepare
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 4.16 ms, found 0 plugins.
+Registering precompiled user dll's ...
+Registered in 0.003900 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.2 MB.
-System memory in use after: 70.5 MB.
+CustomForwardRendererData is missing RendererFeatures
+This could be due to missing scripts or compile error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+UnityEngine.Rendering.Universal.ScriptableRendererData:ValidateRendererFeatures () (at Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:135)
+UnityEngine.Rendering.Universal.ScriptableRendererData:OnValidate () (at Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:59)
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3430.
-Total: 2.179200 ms (FindLiveObjects: 0.321300 ms CreateObjectMapping: 0.132300 ms MarkObjects: 1.709900 ms  DeleteObjects: 0.014400 ms)
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs Line: 135)
 
+Mono: successfully reloaded assembly
+- Completed reload, in  0.782 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2870 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.6 MB.
+System memory in use after: 127.8 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3462.
+Total: 2.085600 ms (FindLiveObjects: 0.270800 ms CreateObjectMapping: 0.132400 ms MarkObjects: 1.651100 ms  DeleteObjects: 0.030800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
