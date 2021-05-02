@@ -31,11 +31,12 @@ public class CameraPainter : MonoBehaviour{
         //if (click){
             //Vector3 position = cam.position;//Input.mousePosition;
             Ray ray = new Ray(cam.transform.position, cam.transform.forward);//cam.ScreenPointToRay(position);
-        RaycastHit hit;
+            RaycastHit hit;
 
             if (Physics.Raycast(ray, out hit, 100.0f)){
                 Debug.DrawRay(ray.origin, hit.point - ray.origin, Color.red);
-                transform.position = hit.point;
+                transform.position = new Vector3(hit.point.x, 30.0f, hit.point.z);
+                //transform.position = new Vector3(hit.point.x, 30.0f, hit.point.z);
                 Paintable p = hit.collider.GetComponent<Paintable>();
                 if(p != null){
                     PaintManager.instance.paint(p, hit.point, radius, hardness, strength, paintColor);

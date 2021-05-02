@@ -2,19 +2,14 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - CameraPainter
-    - IPAddress
+    - FlightPath
     - PaintManager
     - Paintable
     - Patterns
-    - RileyNetwork
-    - operatingSystemDetection
+    - gridMaker
     - platformMovement
     Photon Realtime MLAPI Transport.dll:
     - Photon.Realtime.PhotonAppSettings
-    Unity.Multiplayer.MLAPI.Runtime.dll:
-    - MLAPI.NetworkManager
-    - MLAPI.NetworkObject
-    - MLAPI.Transports.UNET.UNetTransport
     Unity.RenderPipelines.Core.Runtime.dll:
     - UnityEngine.Rendering.UI.DebugUIHandlerBitField
     - UnityEngine.Rendering.UI.DebugUIHandlerButton
@@ -82,7 +77,6 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.HorizontalLayoutGroup
     - UnityEngine.UI.Image
-    - UnityEngine.UI.InputField
     - UnityEngine.UI.LayoutElement
     - UnityEngine.UI.Mask
     - UnityEngine.UI.RawImage
@@ -92,7 +86,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Toggle
     - UnityEngine.UI.VerticalLayoutGroup
   sceneClasses:
-    Assets/Ethan/Scenes/AAAPaint.unity:
+    Assets/Ethan/Scenes/SPIRAL_PAINT.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -148,118 +142,108 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2286}
     - Class: 114
-      Script: {instanceID: 2298}
+      Script: {instanceID: 2292}
     - Class: 114
-      Script: {instanceID: 2350}
+      Script: {instanceID: 2298}
     - Class: 114
       Script: {instanceID: 2380}
     - Class: 114
       Script: {instanceID: 2582}
     - Class: 114
-      Script: {instanceID: 2794}
+      Script: {instanceID: 2846}
     - Class: 114
-      Script: {instanceID: 3004}
+      Script: {instanceID: 3006}
     - Class: 114
-      Script: {instanceID: 3078}
+      Script: {instanceID: 3080}
     - Class: 114
-      Script: {instanceID: 3124}
+      Script: {instanceID: 3126}
     - Class: 114
-      Script: {instanceID: 3142}
+      Script: {instanceID: 3144}
     - Class: 114
-      Script: {instanceID: 3146}
+      Script: {instanceID: 3148}
     - Class: 114
-      Script: {instanceID: 3198}
+      Script: {instanceID: 3200}
     - Class: 114
-      Script: {instanceID: 3296}
+      Script: {instanceID: 3298}
     - Class: 114
-      Script: {instanceID: 3408}
+      Script: {instanceID: 3410}
     - Class: 114
-      Script: {instanceID: 3488}
+      Script: {instanceID: 3490}
     - Class: 114
-      Script: {instanceID: 3670}
+      Script: {instanceID: 3672}
     - Class: 114
-      Script: {instanceID: 3770}
+      Script: {instanceID: 3772}
     - Class: 114
-      Script: {instanceID: 4034}
+      Script: {instanceID: 4036}
     - Class: 114
-      Script: {instanceID: 4086}
+      Script: {instanceID: 4378}
     - Class: 114
-      Script: {instanceID: 4376}
+      Script: {instanceID: 4758}
     - Class: 114
-      Script: {instanceID: 4756}
+      Script: {instanceID: 4770}
     - Class: 114
-      Script: {instanceID: 4768}
-    - Class: 114
-      Script: {instanceID: 4822}
-    - Class: 114
-      Script: {instanceID: 4992}
+      Script: {instanceID: 4824}
     - Class: 114
       Script: {instanceID: 4994}
     - Class: 114
-      Script: {instanceID: 5010}
+      Script: {instanceID: 4996}
     - Class: 114
-      Script: {instanceID: 5058}
+      Script: {instanceID: 5012}
     - Class: 114
-      Script: {instanceID: 5074}
+      Script: {instanceID: 5076}
     - Class: 114
-      Script: {instanceID: 5240}
+      Script: {instanceID: 5242}
     - Class: 114
-      Script: {instanceID: 5340}
+      Script: {instanceID: 5342}
     - Class: 114
-      Script: {instanceID: 5358}
+      Script: {instanceID: 5360}
     - Class: 114
-      Script: {instanceID: 5452}
+      Script: {instanceID: 5454}
     - Class: 114
-      Script: {instanceID: 5516}
+      Script: {instanceID: 5518}
     - Class: 114
-      Script: {instanceID: 5522}
+      Script: {instanceID: 5524}
     - Class: 114
-      Script: {instanceID: 5608}
+      Script: {instanceID: 5610}
     - Class: 114
-      Script: {instanceID: 5644}
+      Script: {instanceID: 5646}
     - Class: 114
-      Script: {instanceID: 5654}
+      Script: {instanceID: 5656}
     - Class: 114
-      Script: {instanceID: 5684}
+      Script: {instanceID: 5686}
     - Class: 114
-      Script: {instanceID: 5748}
+      Script: {instanceID: 5750}
     - Class: 114
-      Script: {instanceID: 5758}
+      Script: {instanceID: 5760}
     - Class: 114
-      Script: {instanceID: 5864}
+      Script: {instanceID: 5866}
     - Class: 114
-      Script: {instanceID: 5990}
+      Script: {instanceID: 5992}
     - Class: 114
-      Script: {instanceID: 6104}
+      Script: {instanceID: 6106}
     - Class: 114
-      Script: {instanceID: 6152}
+      Script: {instanceID: 6154}
     - Class: 114
-      Script: {instanceID: 6168}
+      Script: {instanceID: 6170}
     - Class: 114
-      Script: {instanceID: 6378}
+      Script: {instanceID: 6388}
     - Class: 114
-      Script: {instanceID: 6386}
+      Script: {instanceID: 6666}
     - Class: 114
-      Script: {instanceID: 6446}
+      Script: {instanceID: 6710}
     - Class: 114
-      Script: {instanceID: 6550}
+      Script: {instanceID: 6830}
     - Class: 114
-      Script: {instanceID: 6664}
+      Script: {instanceID: 6980}
     - Class: 114
-      Script: {instanceID: 6708}
+      Script: {instanceID: 7186}
     - Class: 114
-      Script: {instanceID: 6828}
-    - Class: 114
-      Script: {instanceID: 6978}
-    - Class: 114
-      Script: {instanceID: 7184}
-    - Class: 114
-      Script: {instanceID: 7190}
-    - Class: 114
-      Script: {instanceID: 26054}
+      Script: {instanceID: 45356}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -550,6 +534,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 14a44d3c672d9e4040f6055153e0fedd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FlightPath
   - hash:
       serializedVersion: 2
       Hash: 1268406d3f2e4b2c2b670b560b6db769
@@ -1542,6 +1532,6 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   platform: 13
   scenePathNames:
-  - Assets/Ethan/Scenes/AAAPaint.unity
-  playerPath: C:/Users/HerndonE/Desktop/CapstoneProject/SearchAndRescueUnity/Unity/AR
-    Demo/Builds/EthanBuildsTest/EthanTest.apk
+  - Assets/Ethan/Scenes/SPIRAL_PAINT.unity
+  playerPath: C:/Users/riley_bxtvy5/Documents/GitHub/SearchAndRescueUnity/Unity/AR
+    Demo/PaintDotSpiral.apk
