@@ -20,6 +20,11 @@
 ### Controls:
 ```
 ```
+
+### Packages Used
+```
+```
+
 ### Creators (Alphabetic Order):
 
 ### Ethan Herndon
@@ -39,4 +44,6 @@
 **Role:** Software Engineer
 [<img align="left" alt="ReyaA | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />](https://www.linkedin.com/in/athena-raya/)
 [<img align="left" alt="ReyaA | Github" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/github.svg" />](https://github.com/AthenaRaya)
-## Issues
+
+### Issues    
+If you find any bugs or issues related to this project please email our client [Clay Greunke](https://www.linkedin.com/in/claygreunke/) at <larry.greunke@nps.edu> or <lgreunke@csumb.edu> . In addition, please provide screenshots of the bugs and describe what you did before the error occurred.
