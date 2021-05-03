@@ -3,6 +3,7 @@ using Random = UnityEngine.Random;
 
 public class CameraPainter : MonoBehaviour{
     public Camera cam;
+    private Camera pilotCamera;
     [Space]
     public bool mouseSingleClick;
     [Space]
@@ -11,6 +12,15 @@ public class CameraPainter : MonoBehaviour{
     public Color paintColor;
 
     void Start() {
+
+
+        pilotCamera = GameObject.Find("pilotCamera").GetComponent<Camera>();
+
+        pilotCamera.enabled = false;
+
+        cam.GetComponent<Camera>().enabled = true;
+        
+
         if (randomTorF == true)
         {
             paintColor = new Color((float)Random.Range(50, 200) / 255.0f, (float)Random.Range(50, 200) / 255.0f, (float)Random.Range(50, 200) / 255.0f);

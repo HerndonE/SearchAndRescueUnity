@@ -2,12 +2,14 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - CameraPainter
+    - FlightPath
     - IPAddress
     - PaintManager
     - Paintable
     - Patterns
     - RileyNetwork
-    - gridMaker
+    - objectLocation
+    - operatingSystemDetection
     - platformMovement
     Photon Realtime MLAPI Transport.dll:
     - Photon.Realtime.PhotonAppSettings
@@ -52,6 +54,8 @@ ScriptsOnlyBuild:
     - UnityEngine.Rendering.Universal.XRSystemData
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.XR.ARCore.Editor.dll:
+    - UnityEditor.XR.ARCore.ARCoreSettings
     Unity.XR.ARCore.dll:
     - UnityEngine.XR.ARCore.ARCoreLoader
     Unity.XR.ARFoundation.dll:
@@ -60,6 +64,8 @@ ScriptsOnlyBuild:
     - UnityEngine.XR.ARFoundation.ARInputManager
     - UnityEngine.XR.ARFoundation.ARSession
     - UnityEngine.XR.ARFoundation.ARSessionOrigin
+    Unity.XR.ARKit.Editor.dll:
+    - UnityEditor.XR.ARKit.ARKitSettings
     Unity.XR.Management.Editor.dll:
     - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
     Unity.XR.Management.dll:
@@ -90,7 +96,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Toggle
     - UnityEngine.UI.VerticalLayoutGroup
   sceneClasses:
-    Assets/Ethan/Scenes/AAAPaint.unity:
+    Assets/Ethan/Scenes/AAAPaint_Ethan.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -130,134 +136,140 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1626}
+      Script: {instanceID: 9008}
     - Class: 114
-      Script: {instanceID: 1628}
+      Script: {instanceID: 9048}
     - Class: 114
-      Script: {instanceID: 1630}
+      Script: {instanceID: 9120}
     - Class: 114
-      Script: {instanceID: 1632}
+      Script: {instanceID: 9150}
     - Class: 114
-      Script: {instanceID: 1642}
+      Script: {instanceID: 9650}
     - Class: 114
-      Script: {instanceID: 1754}
+      Script: {instanceID: 9662}
     - Class: 114
-      Script: {instanceID: 1784}
+      Script: {instanceID: 9714}
     - Class: 114
-      Script: {instanceID: 2288}
+      Script: {instanceID: 9744}
     - Class: 114
-      Script: {instanceID: 2294}
+      Script: {instanceID: 9942}
     - Class: 114
-      Script: {instanceID: 2300}
+      Script: {instanceID: 10108}
     - Class: 114
-      Script: {instanceID: 2380}
+      Script: {instanceID: 10152}
     - Class: 114
-      Script: {instanceID: 2582}
+      Script: {instanceID: 10204}
     - Class: 114
-      Script: {instanceID: 2794}
+      Script: {instanceID: 10272}
     - Class: 114
-      Script: {instanceID: 3004}
+      Script: {instanceID: 10366}
     - Class: 114
-      Script: {instanceID: 3078}
+      Script: {instanceID: 10438}
     - Class: 114
-      Script: {instanceID: 3124}
+      Script: {instanceID: 10484}
     - Class: 114
-      Script: {instanceID: 3142}
+      Script: {instanceID: 10502}
     - Class: 114
-      Script: {instanceID: 3146}
+      Script: {instanceID: 10506}
     - Class: 114
-      Script: {instanceID: 3198}
+      Script: {instanceID: 10558}
     - Class: 114
-      Script: {instanceID: 3296}
+      Script: {instanceID: 10656}
     - Class: 114
-      Script: {instanceID: 3408}
+      Script: {instanceID: 10766}
     - Class: 114
-      Script: {instanceID: 3488}
+      Script: {instanceID: 10846}
     - Class: 114
-      Script: {instanceID: 3670}
+      Script: {instanceID: 11026}
     - Class: 114
-      Script: {instanceID: 3770}
+      Script: {instanceID: 11118}
     - Class: 114
-      Script: {instanceID: 4034}
+      Script: {instanceID: 11382}
     - Class: 114
-      Script: {instanceID: 4086}
+      Script: {instanceID: 11434}
     - Class: 114
-      Script: {instanceID: 4376}
+      Script: {instanceID: 11718}
     - Class: 114
-      Script: {instanceID: 4756}
+      Script: {instanceID: 12030}
     - Class: 114
-      Script: {instanceID: 4768}
+      Script: {instanceID: 12096}
     - Class: 114
-      Script: {instanceID: 4822}
+      Script: {instanceID: 12108}
     - Class: 114
-      Script: {instanceID: 4992}
+      Script: {instanceID: 12158}
     - Class: 114
-      Script: {instanceID: 4994}
+      Script: {instanceID: 12324}
     - Class: 114
-      Script: {instanceID: 5010}
+      Script: {instanceID: 12326}
     - Class: 114
-      Script: {instanceID: 5058}
+      Script: {instanceID: 12342}
     - Class: 114
-      Script: {instanceID: 5074}
+      Script: {instanceID: 12390}
     - Class: 114
-      Script: {instanceID: 5240}
+      Script: {instanceID: 12392}
     - Class: 114
-      Script: {instanceID: 5340}
+      Script: {instanceID: 12408}
     - Class: 114
-      Script: {instanceID: 5358}
+      Script: {instanceID: 12572}
     - Class: 114
-      Script: {instanceID: 5452}
+      Script: {instanceID: 12672}
     - Class: 114
-      Script: {instanceID: 5516}
+      Script: {instanceID: 12690}
     - Class: 114
-      Script: {instanceID: 5522}
+      Script: {instanceID: 12784}
     - Class: 114
-      Script: {instanceID: 5608}
+      Script: {instanceID: 12846}
     - Class: 114
-      Script: {instanceID: 5644}
+      Script: {instanceID: 12852}
     - Class: 114
-      Script: {instanceID: 5654}
+      Script: {instanceID: 12938}
     - Class: 114
-      Script: {instanceID: 5684}
+      Script: {instanceID: 12974}
     - Class: 114
-      Script: {instanceID: 5748}
+      Script: {instanceID: 12984}
     - Class: 114
-      Script: {instanceID: 5758}
+      Script: {instanceID: 13014}
     - Class: 114
-      Script: {instanceID: 5864}
+      Script: {instanceID: 13078}
     - Class: 114
-      Script: {instanceID: 5990}
+      Script: {instanceID: 13088}
     - Class: 114
-      Script: {instanceID: 6104}
+      Script: {instanceID: 13194}
     - Class: 114
-      Script: {instanceID: 6152}
+      Script: {instanceID: 13316}
     - Class: 114
-      Script: {instanceID: 6168}
+      Script: {instanceID: 13430}
     - Class: 114
-      Script: {instanceID: 6378}
+      Script: {instanceID: 13478}
     - Class: 114
-      Script: {instanceID: 6386}
+      Script: {instanceID: 13494}
     - Class: 114
-      Script: {instanceID: 6446}
+      Script: {instanceID: 13704}
     - Class: 114
-      Script: {instanceID: 6550}
+      Script: {instanceID: 13712}
     - Class: 114
-      Script: {instanceID: 6664}
+      Script: {instanceID: 13770}
     - Class: 114
-      Script: {instanceID: 6708}
+      Script: {instanceID: 13870}
     - Class: 114
-      Script: {instanceID: 6828}
+      Script: {instanceID: 13984}
     - Class: 114
-      Script: {instanceID: 6978}
+      Script: {instanceID: 14028}
     - Class: 114
-      Script: {instanceID: 7184}
+      Script: {instanceID: 14148}
     - Class: 114
-      Script: {instanceID: 7190}
+      Script: {instanceID: 14298}
     - Class: 114
-      Script: {instanceID: 25386}
+      Script: {instanceID: 14494}
+    - Class: 114
+      Script: {instanceID: 14500}
+    - Class: 114
+      Script: {instanceID: 28966}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -272,30 +284,6 @@ ScriptsOnlyBuild:
     - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
-  - hash:
-      serializedVersion: 2
-      Hash: bcaee4c2a83047257b5f47d6ed264b75
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Toggle
-  - hash:
-      serializedVersion: 2
-      Hash: 699619b86d9359741a4f58540298c80b
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Text
-  - hash:
-      serializedVersion: 2
-      Hash: ae83e830e7a90c0aff918c4c2e520825
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: GraphicRaycaster
-  - hash:
-      serializedVersion: 2
-      Hash: a6e561615949734e9f12f9b61661f43e
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Image
   - hash:
       serializedVersion: 2
       Hash: f825b7da28d8d14b6e72a0f1085cab77
@@ -314,6 +302,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.ARFoundation.dll
     namespaceName: UnityEngine.XR.ARFoundation
     className: ARPlane
+  - hash:
+      serializedVersion: 2
+      Hash: a6e561615949734e9f12f9b61661f43e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Image
   - hash:
       serializedVersion: 2
       Hash: 04e4a8b0447477cc4e933d9e5311188f
@@ -448,6 +442,12 @@ ScriptsOnlyBuild:
     className: SplitToning
   - hash:
       serializedVersion: 2
+      Hash: daa14078eb8f5a503daeb4aade736133
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: operatingSystemDetection
+  - hash:
+      serializedVersion: 2
       Hash: 841f439a20b4a381d5a0c5ec9e36deda
     assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
     namespaceName: UnityEngine.Rendering.Universal
@@ -520,6 +520,12 @@ ScriptsOnlyBuild:
     className: TestRunCallbackListener
   - hash:
       serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
       Hash: f40fedccd4adbc76605bea6d67537e4b
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -544,10 +550,22 @@ ScriptsOnlyBuild:
     className: TestResultRendererCallback
   - hash:
       serializedVersion: 2
+      Hash: 14a44d3c672d9e4040f6055153e0fedd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FlightPath
+  - hash:
+      serializedVersion: 2
       Hash: 1268406d3f2e4b2c2b670b560b6db769
     assemblyName: Unity.XR.ARFoundation.dll
     namespaceName: UnityEngine.XR.ARFoundation
     className: AREnvironmentProbeManager
+  - hash:
+      serializedVersion: 2
+      Hash: a52bf3c361d86f7d9e2222587e30a992
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: objectLocation
   - hash:
       serializedVersion: 2
       Hash: de8c2a257a183731115d08b34b7bd746
@@ -958,6 +976,12 @@ ScriptsOnlyBuild:
     className: Tonemapping
   - hash:
       serializedVersion: 2
+      Hash: bcaee4c2a83047257b5f47d6ed264b75
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
       Hash: 098b08e77f16fc740b87d79978b382b6
     assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
     namespaceName: UnityEngine.Experimental.Rendering.Universal
@@ -1040,6 +1064,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: platformMovement
+  - hash:
+      serializedVersion: 2
+      Hash: 699619b86d9359741a4f58540298c80b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
   - hash:
       serializedVersion: 2
       Hash: da02739883030119e2affcae73c43a7f
@@ -1378,7 +1408,7 @@ ScriptsOnlyBuild:
     className: SignalTrack
   - hash:
       serializedVersion: 2
-      Hash: 6c5ebd6dc15d7361257d6d8c8287d397
+      Hash: e82593330152ec8a9a4024aaf04a7da6
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: RileyNetwork
@@ -1534,6 +1564,6 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   platform: 19
   scenePathNames:
-  - Assets/Ethan/Scenes/AAAPaint.unity
+  - Assets/Ethan/Scenes/AAAPaint_Ethan.unity
   playerPath: C:/Users/HerndonE/Desktop/CapstoneProject/SearchAndRescueUnity/Unity/AR
-    Demo/Builds/ARDemo.exe
+    Demo/Builds/EthanPCBuildTest/ARDemo.exe

@@ -51,6 +51,9 @@ public class operatingSystemDetection : MonoBehaviour
     public Camera miniMapCamera;
     public RawImage rawImage;
 
+    //Passenger
+    public Camera pilotCamera;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -90,7 +93,7 @@ public class operatingSystemDetection : MonoBehaviour
 
     public void hostFeatures()
     {
-        OSText.gameObject.SetActive(false);
+        //OSText.gameObject.SetActive(true);
         joinButton.gameObject.SetActive(false);
         IPAddressInput.gameObject.SetActive(false);
 
@@ -114,6 +117,10 @@ public class operatingSystemDetection : MonoBehaviour
 
         miniMapCamera.gameObject.SetActive(false);
         rawImage.gameObject.SetActive(false);
+
+        //pilotCamera.gameObject.SetActive(false);
+
+
 
         //TODO: Resize UI
     }
