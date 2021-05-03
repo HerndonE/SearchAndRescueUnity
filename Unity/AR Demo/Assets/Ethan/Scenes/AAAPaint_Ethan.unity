@@ -5472,6 +5472,41 @@ PrefabInstance:
       propertyPath: randomTorF
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6351884225651430648, guid: 55ca28d1d84931a46b7ee5404690aa5a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.6830127
+      objectReference: {fileID: 0}
+    - target: {fileID: 6351884225651430648, guid: 55ca28d1d84931a46b7ee5404690aa5a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.18301274
+      objectReference: {fileID: 0}
+    - target: {fileID: 6351884225651430648, guid: 55ca28d1d84931a46b7ee5404690aa5a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.6830127
+      objectReference: {fileID: 0}
+    - target: {fileID: 6351884225651430648, guid: 55ca28d1d84931a46b7ee5404690aa5a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.18301274
+      objectReference: {fileID: 0}
+    - target: {fileID: 6351884225651430648, guid: 55ca28d1d84931a46b7ee5404690aa5a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6351884225651430648, guid: 55ca28d1d84931a46b7ee5404690aa5a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6351884225651430653, guid: 55ca28d1d84931a46b7ee5404690aa5a,
+        type: 3}
+      propertyPath: far clip plane
+      value: 1000
+      objectReference: {fileID: 0}
     - target: {fileID: 6351884225754340753, guid: 55ca28d1d84931a46b7ee5404690aa5a,
         type: 3}
       propertyPath: m_Name
@@ -5546,7 +5581,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 6351884226543181224}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1409138745}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 713c699dbb766df4cb28cfa66c2419e9, type: 3}
   m_Name: 

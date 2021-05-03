@@ -15,11 +15,11 @@ C:/Users/riley_bxtvy5/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62571
+62839
 Successfully changed project path to: C:/Users/riley_bxtvy5/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo
 C:/Users/riley_bxtvy5/Documents/GitHub/SearchAndRescueUnity/Unity/AR Demo
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 49.56 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 51.74 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.4f1 (0abb6314276a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Resources/UnitySubsystems
@@ -36,28 +36,28 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56492
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56652
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002005 seconds.
+Registered in 0.001935 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 48.74 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 48.61 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.386 seconds
+- Completed reload, in  1.416 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004840 seconds.
+Registered in 0.004428 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 50.82 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 51.25 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.871 seconds
+- Completed reload, in  0.841 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
@@ -77,117 +77,33 @@ Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 second
 Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2993 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 137.4 MB.
-System memory in use after: 137.6 MB.
+System memory in use before: 137.5 MB.
+System memory in use after: 137.7 MB.
 
 Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3428.
-Total: 2.512100 ms (FindLiveObjects: 0.314600 ms CreateObjectMapping: 0.078800 ms MarkObjects: 2.016900 ms  DeleteObjects: 0.101100 ms)
+Total: 2.530600 ms (FindLiveObjects: 0.332900 ms CreateObjectMapping: 0.080700 ms MarkObjects: 2.011500 ms  DeleteObjects: 0.104600 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Ethan/Scenes/Ethan.unity
-  artifactKey: Guid(55eeb26459e83e844bc1e6f4e8dff680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ethan/Scenes/Ethan.unity using Guid(55eeb26459e83e844bc1e6f4e8dff680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa068a293d08c06120abf30ae972bc6e') in 0.011680 seconds
-  Import took 0.016021 seconds .
+  path: Assets/Ethan/Scenes/SPIRAL_PAINT.unity
+  artifactKey: Guid(4936d45d4fdcd9b49a278bceb350a8fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ethan/Scenes/SPIRAL_PAINT.unity using Guid(4936d45d4fdcd9b49a278bceb350a8fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0b28e90c1646a69d202afe79f759cc7') in 0.011785 seconds
+  Import took 0.016353 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/Ethan/Scenes/Ethan2.0.unity
-  artifactKey: Guid(31590c4b577a0c44895cfcd2f0c2697e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ethan/Scenes/Ethan2.0.unity using Guid(31590c4b577a0c44895cfcd2f0c2697e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fe1d494663542d9bd3f7d4490202669') in 0.002847 seconds
-  Import took 0.006437 seconds .
+  Time since last request: 1451.590389 seconds.
+  path: Assets/Riley
+  artifactKey: Guid(52b5ba58c30c1ef409cafe443745ac17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Riley using Guid(52b5ba58c30c1ef409cafe443745ac17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b5e76649d78d92c83cd19e1a771424b') in 0.002728 seconds
+  Import took 0.007608 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.341190 seconds.
-  path: Assets/Ethan/Scenes/AAAPaint.unity
-  artifactKey: Guid(1ad599a9f9c88f24db8c559fdac1d951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ethan/Scenes/AAAPaint.unity using Guid(1ad599a9f9c88f24db8c559fdac1d951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b340854e0e065352cfedf6d13ead11c') in 0.002970 seconds
-  Import took 0.007229 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.719061 seconds.
-  path: Assets/Ethan/Scenes/AAAPaint_Ethan.unity
-  artifactKey: Guid(1ad599a9f9c88f24db8c559fdac1d951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ethan/Scenes/AAAPaint_Ethan.unity using Guid(1ad599a9f9c88f24db8c559fdac1d951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '273e18b8842f3d338ae4b42418b546be') in 0.003057 seconds
-  Import took 0.007712 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.624807 seconds.
-  path: Assets/Ethan/Scenes/AAAPaint_Ethan.unity
-  artifactKey: Guid(1ad599a9f9c88f24db8c559fdac1d951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ethan/Scenes/AAAPaint_Ethan.unity using Guid(1ad599a9f9c88f24db8c559fdac1d951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93700a395e50aa4476179ea20295bb6d') in 0.002660 seconds
-  Import took 0.007433 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 36.606123 seconds.
-  path: Assets/Riley/Red.mat
-  artifactKey: Guid(6d2a1a8cf0776e04b82cde2050a6e704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Riley/Red.mat using Guid(6d2a1a8cf0776e04b82cde2050a6e704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9919cec98eba620ff4e1c0ee04ed115c') in 0.216238 seconds
-  Import took 0.221217 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.149854 seconds.
-  path: Assets/Riley/AAAPaint_2.0.unity
-  artifactKey: Guid(feeac45402e301745a6414160bb1eeee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Riley/AAAPaint_2.0.unity using Guid(feeac45402e301745a6414160bb1eeee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca79af3f601188fc63dcce27c2f1e391') in 0.002486 seconds
-  Import took 0.006900 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004939 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-CustomForwardRendererData is missing RendererFeatures
-This could be due to missing scripts or compile error.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
-UnityEngine.Debug:LogError (object,UnityEngine.Object)
-UnityEngine.Rendering.Universal.ScriptableRendererData:ValidateRendererFeatures () (at C:/Users/HerndonE/Desktop/CapstoneProject/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:135)
-UnityEngine.Rendering.Universal.ScriptableRendererData:OnValidate () (at C:/Users/HerndonE/Desktop/CapstoneProject/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs:59)
-
-(Filename: C:/Users/HerndonE/Desktop/CapstoneProject/SearchAndRescueUnity/Unity/AR Demo/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/ScriptableRendererData.cs Line: 135)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.864 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2872 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 131.9 MB.
-System memory in use after: 132.1 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3510.
-Total: 2.369000 ms (FindLiveObjects: 0.385300 ms CreateObjectMapping: 0.077800 ms MarkObjects: 1.855200 ms  DeleteObjects: 0.049700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 57.505595 seconds.
-  path: Assets/Riley/AAAPaint.unity
-  artifactKey: Guid(a5e32e15c360c30468ba14b72cade540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Riley/AAAPaint.unity using Guid(a5e32e15c360c30468ba14b72cade540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e4fdb00b473f12c6a8a7b8a3c89a070') in 0.011563 seconds
-  Import took 0.015830 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.365373 seconds.
-  path: Assets/Riley/FlightPath.cs
-  artifactKey: Guid(aa863988b2de16c4dbe0fd0a0170081b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Riley/FlightPath.cs using Guid(aa863988b2de16c4dbe0fd0a0170081b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d118c6957a38b469ecc599d6117a5c9') in 0.008046 seconds
-  Import took 0.012668 seconds .
+  Time since last request: 22.075095 seconds.
+  path: Assets/Riley/Test.mat
+  artifactKey: Guid(d42d89f2e1dc70f44a69e5a340691998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Riley/Test.mat using Guid(d42d89f2e1dc70f44a69e5a340691998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '152c60cd97796f16735ada08cc7d660c') in 0.219812 seconds
+  Import took 0.224787 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
