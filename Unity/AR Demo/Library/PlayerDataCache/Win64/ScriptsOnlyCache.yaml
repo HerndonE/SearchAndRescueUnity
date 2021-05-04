@@ -6,6 +6,7 @@ ScriptsOnlyBuild:
     - PaintManager
     - Paintable
     - Patterns
+    - PlayerMovement
     - RileyNetwork
     - gridMaker
     - platformMovement
@@ -52,6 +53,8 @@ ScriptsOnlyBuild:
     - UnityEngine.Rendering.Universal.XRSystemData
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.XR.ARCore.Editor.dll:
+    - UnityEditor.XR.ARCore.ARCoreSettings
     Unity.XR.ARCore.dll:
     - UnityEngine.XR.ARCore.ARCoreLoader
     Unity.XR.ARFoundation.dll:
@@ -208,6 +211,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5452}
     - Class: 114
+      Script: {instanceID: 5472}
+    - Class: 114
       Script: {instanceID: 5516}
     - Class: 114
       Script: {instanceID: 5522}
@@ -254,7 +259,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7190}
     - Class: 114
-      Script: {instanceID: 25386}
+      Script: {instanceID: 30616}
+    - Class: 114
+      Script: {instanceID: 85278}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1536,4 +1543,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Ethan/Scenes/AAAPaint.unity
   playerPath: C:/Users/HerndonE/Desktop/CapstoneProject/SearchAndRescueUnity/Unity/AR
-    Demo/Builds/ARDemo.exe
+    Demo/Builds/EthanTESTPC/ARDemo.exe
