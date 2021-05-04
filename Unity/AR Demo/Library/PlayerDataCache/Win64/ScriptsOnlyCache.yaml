@@ -6,10 +6,11 @@ ScriptsOnlyBuild:
     - PaintManager
     - Paintable
     - Patterns
-    - PlayerMovement
     - RileyNetwork
     - gridMaker
     - platformMovement
+    - testMovement
+    - voltron
     Photon Realtime MLAPI Transport.dll:
     - Photon.Realtime.PhotonAppSettings
     Unity.Multiplayer.MLAPI.Runtime.dll:
@@ -63,6 +64,8 @@ ScriptsOnlyBuild:
     - UnityEngine.XR.ARFoundation.ARInputManager
     - UnityEngine.XR.ARFoundation.ARSession
     - UnityEngine.XR.ARFoundation.ARSessionOrigin
+    Unity.XR.ARKit.Editor.dll:
+    - UnityEditor.XR.ARKit.ARKitSettings
     Unity.XR.Management.Editor.dll:
     - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
     Unity.XR.Management.dll:
@@ -141,127 +144,127 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1632}
     - Class: 114
-      Script: {instanceID: 1642}
+      Script: {instanceID: 1648}
     - Class: 114
-      Script: {instanceID: 1754}
+      Script: {instanceID: 1760}
     - Class: 114
-      Script: {instanceID: 1784}
-    - Class: 114
-      Script: {instanceID: 2288}
+      Script: {instanceID: 1790}
     - Class: 114
       Script: {instanceID: 2294}
     - Class: 114
       Script: {instanceID: 2300}
     - Class: 114
-      Script: {instanceID: 2380}
+      Script: {instanceID: 2306}
     - Class: 114
-      Script: {instanceID: 2582}
+      Script: {instanceID: 2386}
     - Class: 114
-      Script: {instanceID: 2794}
+      Script: {instanceID: 2588}
     - Class: 114
-      Script: {instanceID: 3004}
+      Script: {instanceID: 2800}
     - Class: 114
-      Script: {instanceID: 3078}
+      Script: {instanceID: 3010}
     - Class: 114
-      Script: {instanceID: 3124}
+      Script: {instanceID: 3084}
     - Class: 114
-      Script: {instanceID: 3142}
+      Script: {instanceID: 3130}
     - Class: 114
-      Script: {instanceID: 3146}
+      Script: {instanceID: 3148}
     - Class: 114
-      Script: {instanceID: 3198}
+      Script: {instanceID: 3152}
     - Class: 114
-      Script: {instanceID: 3296}
+      Script: {instanceID: 3204}
     - Class: 114
-      Script: {instanceID: 3408}
+      Script: {instanceID: 3302}
     - Class: 114
-      Script: {instanceID: 3488}
+      Script: {instanceID: 3414}
     - Class: 114
-      Script: {instanceID: 3670}
+      Script: {instanceID: 3494}
     - Class: 114
-      Script: {instanceID: 3770}
+      Script: {instanceID: 3676}
     - Class: 114
-      Script: {instanceID: 4034}
+      Script: {instanceID: 3776}
     - Class: 114
-      Script: {instanceID: 4086}
+      Script: {instanceID: 4040}
     - Class: 114
-      Script: {instanceID: 4376}
+      Script: {instanceID: 4092}
     - Class: 114
-      Script: {instanceID: 4756}
+      Script: {instanceID: 4382}
     - Class: 114
-      Script: {instanceID: 4768}
+      Script: {instanceID: 4762}
     - Class: 114
-      Script: {instanceID: 4822}
+      Script: {instanceID: 4774}
     - Class: 114
-      Script: {instanceID: 4992}
+      Script: {instanceID: 4828}
     - Class: 114
-      Script: {instanceID: 4994}
+      Script: {instanceID: 4998}
     - Class: 114
-      Script: {instanceID: 5010}
+      Script: {instanceID: 5000}
     - Class: 114
-      Script: {instanceID: 5058}
+      Script: {instanceID: 5004}
     - Class: 114
-      Script: {instanceID: 5074}
+      Script: {instanceID: 5018}
     - Class: 114
-      Script: {instanceID: 5240}
+      Script: {instanceID: 5066}
     - Class: 114
-      Script: {instanceID: 5340}
+      Script: {instanceID: 5082}
     - Class: 114
-      Script: {instanceID: 5358}
+      Script: {instanceID: 5248}
     - Class: 114
-      Script: {instanceID: 5452}
+      Script: {instanceID: 5348}
     - Class: 114
-      Script: {instanceID: 5472}
+      Script: {instanceID: 5366}
     - Class: 114
-      Script: {instanceID: 5516}
+      Script: {instanceID: 5460}
     - Class: 114
-      Script: {instanceID: 5522}
+      Script: {instanceID: 5524}
     - Class: 114
-      Script: {instanceID: 5608}
+      Script: {instanceID: 5530}
     - Class: 114
-      Script: {instanceID: 5644}
+      Script: {instanceID: 5616}
     - Class: 114
-      Script: {instanceID: 5654}
+      Script: {instanceID: 5652}
     - Class: 114
-      Script: {instanceID: 5684}
+      Script: {instanceID: 5662}
     - Class: 114
-      Script: {instanceID: 5748}
+      Script: {instanceID: 5692}
     - Class: 114
-      Script: {instanceID: 5758}
+      Script: {instanceID: 5756}
     - Class: 114
-      Script: {instanceID: 5864}
+      Script: {instanceID: 5766}
     - Class: 114
-      Script: {instanceID: 5990}
+      Script: {instanceID: 5872}
     - Class: 114
-      Script: {instanceID: 6104}
+      Script: {instanceID: 5998}
     - Class: 114
-      Script: {instanceID: 6152}
+      Script: {instanceID: 6112}
     - Class: 114
-      Script: {instanceID: 6168}
+      Script: {instanceID: 6160}
     - Class: 114
-      Script: {instanceID: 6378}
+      Script: {instanceID: 6176}
     - Class: 114
       Script: {instanceID: 6386}
     - Class: 114
-      Script: {instanceID: 6446}
+      Script: {instanceID: 6394}
     - Class: 114
-      Script: {instanceID: 6550}
+      Script: {instanceID: 6454}
     - Class: 114
-      Script: {instanceID: 6664}
+      Script: {instanceID: 6558}
     - Class: 114
-      Script: {instanceID: 6708}
+      Script: {instanceID: 6672}
     - Class: 114
-      Script: {instanceID: 6828}
+      Script: {instanceID: 6716}
     - Class: 114
-      Script: {instanceID: 6978}
+      Script: {instanceID: 6836}
     - Class: 114
-      Script: {instanceID: 7184}
+      Script: {instanceID: 6986}
     - Class: 114
-      Script: {instanceID: 7190}
+      Script: {instanceID: 7192}
     - Class: 114
-      Script: {instanceID: 30616}
+      Script: {instanceID: 7198}
     - Class: 114
-      Script: {instanceID: 85278}
+      Script: {instanceID: 30640}
+    - Class: 114
+      Script: {instanceID: 36336}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1025,6 +1028,12 @@ ScriptsOnlyBuild:
     className: DebugUIHandlerFloatField
   - hash:
       serializedVersion: 2
+      Hash: 152e183bfbed26a16fe16da9035134a4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: voltron
+  - hash:
+      serializedVersion: 2
       Hash: df819f0bc77c8d047eca1df91bbaa90d
     assemblyName: Unity.RenderPipelines.Core.Runtime.dll
     namespaceName: UnityEngine.Rendering.UI
@@ -1539,6 +1548,36 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: daa14078eb8f5a503daeb4aade736133
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: operatingSystemDetection
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: disableChildComponent
+  - hash:
+      serializedVersion: 2
+      Hash: 390f84c987ec1b86e993a62d7cb640e3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: testNetwork
+  - hash:
+      serializedVersion: 2
+      Hash: 152e183bfbed26a16fe16da9035134a4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: mergePassengerToCarrier
+  - hash:
+      serializedVersion: 2
+      Hash: afc5b93a7b192de2dcb3832fe35a5c7e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: testMovement
   platform: 19
   scenePathNames:
   - Assets/Ethan/Scenes/AAAPaint.unity

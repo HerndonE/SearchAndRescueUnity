@@ -45,16 +45,16 @@ public class RileyNetwork : MonoBehaviour
 
     Vector3 hostSpawn()
     {
-        float x = 10f;
-        float y = 20f;
-        float z = 0f;
+        float x = 0f;
+        float y = 10f;
+        float z = 2.5f;
         return new Vector3(x, y, z);
     }
 
     Vector3 clientSpawn()
     {
-        float x = -10f;
-        float y = 20f;
+        float x = 0f;
+        float y = 10f;
         float z = 0f;
         return new Vector3(x, y, z);
     }

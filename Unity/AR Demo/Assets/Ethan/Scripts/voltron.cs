@@ -10,7 +10,7 @@ public class voltron : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        parent = GameObject.Find("ParentObjectTest");
+        parent = GameObject.Find("hostCarrier");
         this.gameObject.transform.SetParent(parent.transform);
     }
 
