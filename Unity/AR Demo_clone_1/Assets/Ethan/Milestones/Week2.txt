@@ -1,2 +1,0 @@
-Apply raycast to inanimate objects and setup UI.
-Repo: https://github.com/HerndonE/Unity-Augmented-Reality-with-Raycast
