@@ -62,7 +62,15 @@ public class FlightPath : MonoBehaviour
             pointsSpiral.Add(new Vector3(passLength * (-1) * i, height, passLength * (+1) * (i + 1)));
             pointsSpiral.Add(new Vector3(passLength * (+1) * (i + 1), height, passLength * (+1) * (i + 1)));
             pointsSpiral.Add(new Vector3(passLength * (+1) * (i + 1), height, passLength * (-1) * (i + 1)));
+
+            if(i == numPassTotal)
+            {
+                pointsSpiral.Add(new Vector3(passLength * (-1) * (i+1), height, passLength * (-1) * (i + 1)));
+                pointsSpiral.Add(new Vector3(passLength * (-1) * (i + 1), height, passLength * (+0.9f) * (i + 2)));
+            }
         }
+
+
 
         for (int j = 0; j < pointsSpiral.Count; j++)
         {
@@ -112,7 +120,7 @@ public class FlightPath : MonoBehaviour
                     //transform.Rotate(0, 90, 0);
                     spin = true;
                 }
-                if (numPassCurrent >= numPassTotal)
+                if ((numPassCurrent - 6) >= (numPassTotal*4))
                 {
                     gogogo = false;
                     spin = false;

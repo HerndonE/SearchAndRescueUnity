@@ -1581,5 +1581,5 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/DeliverableA/deliverableA.unity
-  playerPath: C:/Users/HerndonE/Desktop/CapstoneProject/SearchAndRescueUnity/Unity/AR
-    Demo/Builds/DeliverableA/Android/deliverableAAndroid.apk
+  playerPath: C:/Users/riley_bxtvy5/Documents/GitHub/SearchAndRescueUnity/Unity/AR
+    Demo/RILEYtest.apk
