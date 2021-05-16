@@ -1,3 +1,8 @@
+/*
+Ethan Herndon
+Capstone 499 AR Search and Rescue Prototype
+Description: This program is to test object movement using the WASD keys.
+*/
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

@@ -1,3 +1,8 @@
+/*
+Ethan Herndon
+Capstone 499 AR Search and Rescue Prototype
+Description: This program uses a button to turn on/off a rawImage in game.
+*/
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -15,12 +20,6 @@ public class tabCameras : MonoBehaviour
         rawImage = GameObject.Find("RawImage");
         check = false;
         rawImage.SetActive(false);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 
     public void tabbing()

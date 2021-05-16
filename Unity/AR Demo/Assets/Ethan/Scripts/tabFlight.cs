@@ -1,3 +1,8 @@
+/*
+Ethan Herndon
+Capstone 499 AR Search and Rescue Prototype
+Description: This program uses a button to turn on/off an objects set path in game.
+*/
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -20,12 +25,6 @@ public class tabFlight : MonoBehaviour
         check = false;
         GetComponent<FlightPath>().enabled = false;
         flightButton.GetComponent<Image>().sprite = offButton;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
     }
 
     public void tabbing()

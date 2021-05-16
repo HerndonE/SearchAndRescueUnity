@@ -1,9 +1,13 @@
-﻿using System.Collections;
+﻿/*
+Ethan Herndon
+Capstone 499 AR Search and Rescue Prototype
+Description: This program creates a x,z grid with a gameobject.
+Reference: https://stackoverflow.com/questions/63426940/what-is-the-best-way-to-dynamically-generate-3d-objects-on-a-grid-in-unity
+*/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
-//Reference: https://stackoverflow.com/questions/63426940/what-is-the-best-way-to-dynamically-generate-3d-objects-on-a-grid-in-unity
 
 public class gridMaker : MonoBehaviour
 {

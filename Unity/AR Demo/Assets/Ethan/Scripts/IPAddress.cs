@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+Ethan Herndon
+Capstone 499 AR Search and Rescue Prototype
+Description: This program accesses the device name and IPv4 address of the device that this scene is 
+running on.
+*/
+using System.Collections;
 using System.Collections.Generic;
 using System;
 using UnityEngine;
@@ -37,12 +43,5 @@ public class IPAddress : MonoBehaviour
        
 
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
   
 }

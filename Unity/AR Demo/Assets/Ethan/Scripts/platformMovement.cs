@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+Ethan Herndon
+Capstone 499 AR Search and Rescue Prototype
+Description: This program creates movement for an object which can be manipulated later
+via a button.
+*/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
@@ -11,14 +17,7 @@ public class platformMovement : MonoBehaviour
     public bool right = false;
     public bool left = false;
 
-    
-    // Start is called before the first frame update
-    void Start()
-    {
        
-    }
-
-   
     public void ForwardPress()
     {
         transform.position += speed * Vector3.forward * Time.deltaTime;
@@ -92,7 +91,6 @@ public class platformMovement : MonoBehaviour
     }
 
    
-
     /* OLD CODE
            if (back == true)
             {

@@ -252,7 +252,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14524}
     - Class: 114
-      Script: {instanceID: 29006}
+      Script: {instanceID: 29008}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1581,5 +1581,5 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/DeliverableA/deliverableA.unity
-  playerPath: C:/Users/riley_bxtvy5/Documents/GitHub/SearchAndRescueUnity/Unity/AR
-    Demo/RILEYtest.apk
+  playerPath: C:/Users/HerndonE/Desktop/CapstoneProject/SearchAndRescueUnity/Unity/AR
+    Demo/Builds/DeliverableA/Android/deliverableAAndroid.apk

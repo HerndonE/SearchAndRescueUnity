@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/*
+Ethan Herndon
+Capstone 499 AR Search and Rescue Prototype
+Description: This program rotates a given object on first frame.
+*/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -10,9 +15,4 @@ public class rotate : MonoBehaviour
         transform.Rotate(-90, 0, 0);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

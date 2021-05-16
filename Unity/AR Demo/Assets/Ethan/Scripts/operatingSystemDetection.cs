@@ -120,9 +120,6 @@ public class operatingSystemDetection : MonoBehaviour
 
         //pilotCamera.gameObject.SetActive(false);
 
-
-
-        //TODO: Resize UI
     }
 
 }
