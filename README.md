@@ -6,9 +6,12 @@
 ![](https://img.shields.io/github/languages/top/HerndonE/SearchAndRescueUnity)
 ![](https://img.shields.io/github/stars/HerndonE/SearchAndRescueUnity?style=social)
 ![](https://img.shields.io/github/forks/HerndonE/SearchAndRescueUnity?style=social)
-### Description:
+### Objective:    
+Develop a multiplayer game simulation in which a missing persons scenario is emulated and use Augmented Reality (AR) to better assist in the retrieval of said persons. 
 
-### Downloads:
+### Downloads:    
+1. [Android Build]()    
+2. [iOS Build]()
 
 <img src="https://github.com/HerndonE/SearchAndRescueUnity/blob/main/Images/BIGGER%20HEAD.png?raw=true" width="23%"></img> 
 <img src="https://github.com/HerndonE/SearchAndRescueUnity/blob/main/Images/BIGGER%20HEAD.png?raw=true" width="23%"></img> 
@@ -22,6 +25,8 @@
   <img src="https://github.com/HerndonE/SearchAndRescueUnity/blob/main/Images/BIGGER%20HEAD.png?raw=true" width="200" />
 </p>
 -->
+
+```
 ### Setup:
 
 ### Instructions:
@@ -31,6 +36,7 @@
 ```
 
 ### Packages Used
+```
 ```
 ```
 
