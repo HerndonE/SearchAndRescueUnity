@@ -18,8 +18,6 @@ Develop a multiplayer game simulation in which a missing persons scenario is emu
 <img src="https://github.com/HerndonE/SearchAndRescueUnity/blob/main/Images/3.jpg?raw=true" width="23%"></img> 
 <img src="https://github.com/HerndonE/SearchAndRescueUnity/blob/main/Images/4.PNG?raw=true" width="23%"></img> 
 <img src="https://github.com/HerndonE/SearchAndRescueUnity/blob/main/Images/5.PNG?raw=true" width="23%"></img> 
-<img src="https://github.com/HerndonE/SearchAndRescueUnity/blob/main/Images/6.png?raw=true" width="50%"></img> 
-<img src="https://github.com/HerndonE/SearchAndRescueUnity/blob/main/Images/7.png?raw=true" width="50%"></img> 
 <img src="https://github.com/HerndonE/SearchAndRescueUnity/blob/main/Images/demo.gif?raw=true" width="23%"></img> 
 
 <!--
