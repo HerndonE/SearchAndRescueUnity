@@ -11,7 +11,7 @@ Develop a multiplayer game simulation in which a missing persons scenario is emu
 
 ### Downloads:    
 1. [Android Build](https://github.com/HerndonE/SearchAndRescueUnity/blob/main/Unity/AR%20Demo/Builds/DeliverableA/Android/deliverableAAndroid.apk?raw=true)    
-2. [iOS Build]()
+2. [iOS Build](https://drive.google.com/uc?export=download&id=1adKqDxWWHHtQ9yf5s9xwaDxBNtFdcbIS) This is a zip file only, you will need to extract this on MacOS and run this on XCode.
 
 <!--
 <img src="https://github.com/HerndonE/SearchAndRescueUnity/blob/main/Images/1.jpg?raw=true" width="23%"></img> 
